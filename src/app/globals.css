@@ -8,6 +8,10 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+.shadow-blue {
+    box-shadow: 10px 10px 24px 7px rgba(133,198,255,0.76);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
