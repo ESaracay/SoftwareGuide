@@ -7,7 +7,7 @@ import TeamInfo from './components/TeamInfo';
 import categoryMap from './components/categoryMap';
 import areaData from './components/areas.json'
 
-var URL = "SoftwareGuide/software_fair.png";
+var URL = "public/software_fair.png";
 
 var category_legend = {
   'AI': '#0000ff',

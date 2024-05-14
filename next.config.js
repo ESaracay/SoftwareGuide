@@ -4,7 +4,7 @@ const nextConfig = {
 
  // Add basePath
   basePath: '/SoftwareGuide',
-
+  assetPrefix: '/SoftwareGuide/',
 }
 
 module.exports = nextConfig
