@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
 
  // Add basePath
-  basePath: '/SoftwareGuide',
-  assetPrefix: '/SoftwareGuide/',
+  basePath: '',
+  assetPrefix: '',
 }
 
 module.exports = nextConfig
