@@ -6,6 +6,7 @@ import Legend from './components/Legend';
 import TeamInfo from './components/TeamInfo';
 import categoryMap from './components/categoryMap';
 import areaData from './components/areas.json'
+import IntroHeader from './components/IntroHeader';
 
 var URL = "software_fair.png";
 
@@ -41,9 +42,10 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="flex flex-col w-full">
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <div className="flex flex-col w-5/6">
         {/* I had ot add 39 pixels to width to get it right on point */} 
+        <IntroHeader/>
         <div>
           <ResponsiveImageMapper src={URL} map={MAP} imgWidth={2040} clickFunc={clicked}></ResponsiveImageMapper>
         </div>
