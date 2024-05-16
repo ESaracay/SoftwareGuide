@@ -1,18 +1,12 @@
 "use client"
 import React from 'react';
-import ImageMapper from 'react-img-mapper';
 import ResponsiveImageMapper from './components/ResponsiveImageMapper';
 import Legend from './components/Legend';
-import TeamInfo from './components/TeamInfo';
+import TeamData from './components/TeamData';
 import categoryMap from './components/categoryMap';
 import areaData from './components/areas.json'
 
 var URL = "software_fair.png";
-
-var category_legend = {
-  'AI': '#0000ff',
-  'Finance': '#00ff00'
-};
 
 export default function Home() {
   const MAP = {
@@ -43,42 +37,16 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="flex flex-col w-full">
-        {/* I had ot add 39 pixels to width to get it right on point */} 
-        <div>
-          <ResponsiveImageMapper src={URL} map={MAP} imgWidth={2040} clickFunc={clicked}></ResponsiveImageMapper>
+        <div className="flex flex-col items-center">
+          <div className='w-full max-w-[1000px]'>
+            <ResponsiveImageMapper src={URL} map={MAP} imgWidth={950} clickFunc={clicked}></ResponsiveImageMapper>
+          </div>
+          <div className='m-2 w-full'>
+            <Legend categoryMap={categoryMap}></Legend> 
+          </div>
         </div>
 
-        <div className='m-2'>
-          <Legend categoryMap={categoryMap}></Legend> 
-        </div>
-
-        <details id="section-0" className="m-4 border-b-4 border-black p-4">
-<summary className="text-3xl font-semibold text-gray-800 cursor-pointer">AI</summary>
-
-        <TeamInfo 
-            teamName={"Kerby"} 
-            teamNum={1} 
-            description={"A super cracked AI team ..."} 
-            categories={['Finance']} 
-            teamMembers={"Will, Will, Yannie, Katherine"}
-            categoryMap={categoryMap}>
-        </TeamInfo>
-
-    </details>
-<details id="section-5" className="m-4 border-b-4 border-black p-4">
-<summary className="text-3xl font-semibold text-gray-800 cursor-pointer">Finance</summary>
-
-        <TeamInfo 
-            teamName={"Refresh"} 
-            teamNum={2} 
-            description={"A super cracked marketing team ..."} 
-            categories={['Marketing']} 
-            teamMembers={"Phil, Phil, Phil"}
-            categoryMap={categoryMap}>
-        </TeamInfo>
-
-    </details>
-
+      <TeamData categoryMap={categoryMap}></TeamData>
       </div>
     </main>
   );

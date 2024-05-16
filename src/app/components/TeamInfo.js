@@ -27,6 +27,9 @@ const TeamInfo = ({ teamName, teamNum, description, teamMembers, categories, cat
       <div className="flex space-x-2 mb-4">
          {categories.map((category, index) => {
           const categoryData = categoryMap[category];
+          if (categoryData === undefined){
+            return;
+          }
           return (
             <button
               key={index}
