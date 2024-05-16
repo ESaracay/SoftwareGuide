@@ -5,6 +5,7 @@ import Legend from './components/Legend';
 import TeamData from './components/TeamData';
 import categoryMap from './components/categoryMap';
 import areaData from './components/areas.json'
+import IntroHeader from './components/IntroHeader';
 
 var URL = "software_fair.png";
 
@@ -35,8 +36,9 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="flex flex-col w-full">
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <div className="flex flex-col w-5/6">
+        <IntroHeader/>
         <div className="flex flex-col items-center">
           <div className='w-full max-w-[1000px]'>
             <ResponsiveImageMapper src={URL} map={MAP} imgWidth={950} clickFunc={clicked}></ResponsiveImageMapper>
