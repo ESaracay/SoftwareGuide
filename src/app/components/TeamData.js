@@ -74,7 +74,7 @@ const TeamData = ({ categoryMap }) => {
                 />
             </div>
             {showSuggestions && (
-                <ul className="suggestions-list m-4 p-2 border border-gray-400 rounded w-full bg-white">
+                <ul className="suggestions-list m-4 p-4 border border-gray-400 rounded w-7/8 bg-white">
                     {suggestions.map((suggestion, index) => (
                         <li 
                             key={index} 

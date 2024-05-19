@@ -22,9 +22,9 @@ const TeamInfo = ({ teamName, teamNum, description, teamMembers, categories, cat
   } 
 
   return (
-    <div id={teamId} className="container mx-auto p-4 border-b border-black">
+    <div id={teamId} className="w-full p-4 border-b border-black">
       <h1 className="text-2xl font-bold mb-4">{teamName}</h1>
-      <div className="flex space-x-2 mb-4">
+      <div className="flex flex-row flex-wrap gap-2 pb-4">
          {categories.map((category, index) => {
           const categoryData = categoryMap[category];
           if (categoryData === undefined){

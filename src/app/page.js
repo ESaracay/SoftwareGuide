@@ -37,13 +37,13 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <div className="flex flex-col w-5/6">
+      <div className="flex flex-col w-full sm:w-5/6">
         <IntroHeader/>
         <div className="flex flex-col items-center">
           <div className='w-full max-w-[1000px]'>
             <ResponsiveImageMapper src={URL} map={MAP} imgWidth={950} clickFunc={clicked}></ResponsiveImageMapper>
           </div>
-          <div className='pt-4 pl-4 pr-4 m-2 w-full'>
+          <div className='pt-4 pl-4 pr-4 m-2 w-full sm:w-5/6'>
             <Legend categoryMap={categoryMap}></Legend> 
           </div>
         </div>
