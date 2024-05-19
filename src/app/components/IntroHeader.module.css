@@ -3,7 +3,7 @@
 .header {
     text-align: center;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .title {
@@ -21,6 +21,20 @@
     padding-top: 0.25rem; /* equivalent to py-1 */
     padding-bottom: 0.25rem; /* equivalent to py-1 */
     margin-right: 0.5rem; /* equivalent to mr-2 */
+    cursor: pointer;
+}
+
+@keyframes jiggle {
+    0%, 100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
+  
+.highlight:hover {
+    animation: jiggle 0.3s ease-in-out infinite;
 }
 
 .info {
@@ -29,6 +43,15 @@
 }
 
 .link {
-    color: black; /* Change text color to black */
     text-decoration: underline;
+    text-decoration-color: #D03C3B;
+    text-decoration-thickness: 4;
 }
+
+.link:hover {
+    font-weight: 500;
+}
+
+
+
+  

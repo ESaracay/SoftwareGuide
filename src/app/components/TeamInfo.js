@@ -34,7 +34,7 @@ const TeamInfo = ({ teamName, teamNum, description, teamMembers, categories, cat
             <button
               key={index}
               onClick={() => openSection(categoryData.section)}
-              className={`px-3 py-1 text-white rounded ${categoryData.color || "bg-gray-500"}`}
+              className={`px-3 py-1 text-white rounded ${categoryData.color || "bg-gray-500"} transition-transform duration-300 transform hover:scale-110`}
             >
               {category}
             </button>
@@ -43,7 +43,7 @@ const TeamInfo = ({ teamName, teamNum, description, teamMembers, categories, cat
       </div>
       <p>Team Members: {teamMembers}</p>
       <button
-        className="text-blue-500 hover:text-blue-700 cursor-pointer pt-4"
+        className="text-blue-500 hover:text-blue-700 cursor-pointer pt-4 pb-2"
         onClick={() => setShowDescription(!showDescription)}
       >
         {showDescription ? 'Hide Description' : 'Show Description'}

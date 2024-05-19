@@ -43,7 +43,7 @@ export default function Home() {
           <div className='w-full max-w-[1000px]'>
             <ResponsiveImageMapper src={URL} map={MAP} imgWidth={950} clickFunc={clicked}></ResponsiveImageMapper>
           </div>
-          <div className='m-2 w-full'>
+          <div className='pt-4 pl-4 pr-4 m-2 w-full'>
             <Legend categoryMap={categoryMap}></Legend> 
           </div>
         </div>

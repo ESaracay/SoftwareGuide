@@ -25,7 +25,7 @@ const Legend = ({ categoryMap }) => {
             <button
               key={category}
               onClick={() => openSection(details.section)}
-              className={`px-3 py-1 text-white rounded ${details.color || "bg-gray-500"}`}
+              className={`px-3 py-1 text-white rounded ${details.color || "bg-gray-500"} transition-transform duration-300 transform hover:scale-110`}
             >
               {category}
             </button>
