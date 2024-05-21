@@ -46,7 +46,7 @@ const TeamData = ({ categoryMap }) => {
     );
 
     const groupedTeams = filteredTeams.reduce((acc, team) => {
-        const category = team.categories[0];
+        const category = team.mainCategory;
         const section = categoryMap[category]?.section;
         if (section !== undefined) {
             if (!acc[section]) {
@@ -86,14 +86,16 @@ const TeamData = ({ categoryMap }) => {
                     ))}
                 </ul>
             )}
+
             {Object.keys(categoryMap).map((category, index) => {
                 const section = categoryMap[category].section;
                 const teamsInSection = groupedTeams[section] || [];
                 
                 if (teamsInSection.length === 0) return null; // Only show categories with filtered teams
+                const section_num = teamsInSection[0].sectionNum;
 
                 return (
-                    <details key={index} id={`section-${section}`} className="m-4 border-b-4 border-black p-4" open={openSection === category}>
+                    <details key={index} id={`section-${section_num}`} className="m-4 border-b-4 border-black p-4" open={openSection === category}>
                         <summary className={`text-3xl font-semibold text-gray-800 cursor-pointer`}>
                             {category}
                         </summary>

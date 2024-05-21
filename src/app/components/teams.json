@@ -1,282 +1,491 @@
 [
     {
-        "teamName": "Alpha Crew 1",
+        "teamName": "Alpha Crew",
         "teamNum": 1,
         "description": "A dynamic AI team that excels in all aspects.",
-        "categories": ["AI", "Finance", "Research"],
-        "teamMembers": "Phil, Yannie, Katherine"
+        "categories": [
+            "AI",
+            "Finance",
+            "Research"
+        ],
+        "mainCategory": "AI",
+        "teamMembers": "Phil, Yannie, Katherine",
+        "sectionNum": 0
     },
     {
-        "teamName": "Delta Team 14",
-        "teamNum": 14,
-        "description": "A forward-thinking AI research team pioneering new technologies.",
-        "categories": ["AI", "Research", "Technology"],
-        "teamMembers": "Will, Phil, Katherine"
-    },
-    {
-        "teamName": "Beta Group 2",
+        "teamName": "Beta Group",
         "teamNum": 2,
         "description": "An innovative Finance team committed to excellence.",
-        "categories": ["Finance", "Marketing"],
-        "teamMembers": "Will, Alice, Bob"
+        "categories": [
+            "Finance",
+            "Marketing"
+        ],
+        "mainCategory": "Finance",
+        "teamMembers": "Will, Alice, Bob",
+        "sectionNum": 5
     },
     {
-        "teamName": "Kerby Squad 17",
-        "teamNum": 17,
-        "description": "A leading Finance team with groundbreaking financial solutions.",
-        "categories": ["Finance", "Business/Office"],
-        "teamMembers": "Katherine, Phil, Alice"
-    },
-    {
-        "teamName": "Kerby Group 27",
-        "teamNum": 27,
-        "description": "A strategic Finance team specializing in corporate finance.",
-        "categories": ["Finance", "Business"],
-        "teamMembers": "John, Yannie, Will"
-    },
-    {
-        "teamName": "Kerby Crew 37",
-        "teamNum": 37,
-        "description": "A proficient Finance team optimizing investment strategies.",
-        "categories": ["Finance", "Investment"],
-        "teamMembers": "Bob, Katherine, Will"
-    },
-    {
-        "teamName": "Gamma Squad 3",
+        "teamName": "Gamma Squad",
         "teamNum": 3,
         "description": "A super Marketing team with great creative insights.",
-        "categories": ["Marketing", "Social Media", "Games"],
-        "teamMembers": "Carol, Phil, Katherine"
+        "categories": [
+            "Marketing",
+            "Social Media",
+            "Games"
+        ],
+        "mainCategory": "Marketing",
+        "teamMembers": "Carol, Phil, Katherine",
+        "sectionNum": 3
     },
     {
-        "teamName": "Echo Crew 15",
-        "teamNum": 15,
-        "description": "A creative Marketing team excelling in digital campaigns.",
-        "categories": ["Marketing", "Social Media"],
-        "teamMembers": "Yannie, Alice, John"
-    },
-    {
-        "teamName": "Zeta Posse 30",
-        "teamNum": 30,
-        "description": "A creative Marketing team pioneering new advertising techniques.",
-        "categories": ["Marketing", "Advertising"],
-        "teamMembers": "Will, Yannie, Alice"
-    },
-    {
-        "teamName": "Zeta Team 40",
-        "teamNum": 40,
-        "description": "A revolutionary Marketing team transforming consumer interaction.",
-        "categories": ["Marketing", "Consumer Behavior"],
-        "teamMembers": "Alice, Will, Katherine"
-    },
-    {
-        "teamName": "Delta Band 4",
+        "teamName": "Delta Band",
         "teamNum": 4,
         "description": "A leading Research team pushing the boundaries of technology.",
-        "categories": ["Research", "Education", "AI"],
-        "teamMembers": "Alice, Will, Yannie"
+        "categories": [
+            "Research",
+            "Education",
+            "AI"
+        ],
+        "mainCategory": "Research",
+        "teamMembers": "Alice, Will, Yannie",
+        "sectionNum": 9
     },
     {
-        "teamName": "Refresh Band 18",
-        "teamNum": 18,
-        "description": "A progressive Research team exploring new frontiers.",
-        "categories": ["Research", "Science", "Technology"],
-        "teamMembers": "John, Will, Yannie"
-    },
-    {
-        "teamName": "Echo Band 25",
-        "teamNum": 25,
-        "description": "A dedicated Research team in the field of environmental science.",
-        "categories": ["Research", "Environment"],
-        "teamMembers": "Alice, Will, Bob"
-    },
-    {
-        "teamName": "Delta Group 34",
-        "teamNum": 34,
-        "description": "A meticulous Research team investigating genetic engineering.",
-        "categories": ["Research", "Science"],
-        "teamMembers": "Yannie, Bob, Katherine"
-    },
-    {
-        "teamName": "Echo Posse 5",
+        "teamName": "Echo Posse",
         "teamNum": 5,
         "description": "An incredible Social Media team with a knack for engagement.",
-        "categories": ["Social Media", "Marketing"],
-        "teamMembers": "Phil, Bob, Carol"
+        "categories": [
+            "Social Media",
+            "Marketing"
+        ],
+        "mainCategory": "Social Media",
+        "teamMembers": "Phil, Bob, Carol",
+        "sectionNum": 11
     },
     {
-        "teamName": "Alpha Team 21",
-        "teamNum": 21,
-        "description": "A dynamic Social Media team enhancing online presence.",
-        "categories": ["Social Media", "Marketing"],
-        "teamMembers": "Phil, John, Carol"
-    },
-    {
-        "teamName": "Alpha Assembly 31",
-        "teamNum": 31,
-        "description": "A high-impact Social Media team mastering viral content.",
-        "categories": ["Social Media", "Marketing"],
-        "teamMembers": "Phil, Bob, Carol"
-    },
-    {
-        "teamName": "Foxtrot Assembly 6",
+        "teamName": "Foxtrot Assembly",
         "teamNum": 6,
         "description": "A fantastic Healthcare team improving patient care.",
-        "categories": ["Healthcare", "Research"],
-        "teamMembers": "Will, Alice, John"
+        "categories": [
+            "Healthcare",
+            "Research"
+        ],
+        "mainCategory": "Healthcare",
+        "teamMembers": "Will, Alice, John",
+        "sectionNum": 7
+    },
+    {
+        "teamName": "Kerby Team",
+        "teamNum": 7,
+        "description": "A dynamic Business/Office team optimizing workflow efficiency.",
+        "categories": [
+            "Business/Office",
+            "Productivity",
+            "Finance"
+        ],
+        "mainCategory": "Business/Office",
+        "teamMembers": "Katherine, Yannie, Bob",
+        "sectionNum": 2
+    },
+    {
+        "teamName": "Refresh Crew",
+        "teamNum": 8,
+        "description": "A superb Education team fostering innovative learning solutions.",
+        "categories": [
+            "Education",
+            "Research"
+        ],
+        "mainCategory": "Education",
+        "teamMembers": "Phil, Carol, Alice",
+        "sectionNum": 4
+    },
+    {
+        "teamName": "Nova Group",
+        "teamNum": 9,
+        "description": "An exceptional Games development team crafting engaging experiences.",
+        "categories": [
+            "Games",
+            "Technology",
+            "AI"
+        ],
+        "mainCategory": "Games",
+        "teamMembers": "Will, Katherine, John",
+        "sectionNum": 6
+    },
+    {
+        "teamName": "Zeta Squad",
+        "teamNum": 10,
+        "description": "A leading Security team ensuring top-notch safety protocols.",
+        "categories": [
+            "Security",
+            "Technology"
+        ],
+        "mainCategory": "Security",
+        "teamMembers": "Bob, Yannie, Alice",
+        "sectionNum": 10
+    },
+    {
+        "teamName": "Alpha Band",
+        "teamNum": 11,
+        "description": "A skilled Productivity team streamlining corporate operations.",
+        "categories": [
+            "Productivity",
+            "Business/Office"
+        ],
+        "mainCategory": "Productivity",
+        "teamMembers": "Phil, Carol, Will",
+        "sectionNum": 8
+    },
+    {
+        "teamName": "Beta Posse",
+        "teamNum": 12,
+        "description": "A passionate XR team creating immersive experiences.",
+        "categories": [
+            "XR",
+            "Technology",
+            "Games"
+        ],
+        "mainCategory": "XR",
+        "teamMembers": "Katherine, John, Yannie",
+        "sectionNum": 12
     },
     {
         "teamName": "Gamma Assembly 13",
         "teamNum": 13,
         "description": "A dedicated Healthcare team driven by innovation and care.",
-        "categories": ["Healthcare", "Wellness"],
-        "teamMembers": "Alice, Bob, Carol"
+        "categories": [
+            "Healthcare",
+            "Wellness"
+        ],
+        "mainCategory": "Healthcare",
+        "teamMembers": "Alice, Bob, Carol",
+        "sectionNum": 7
     },
     {
-        "teamName": "Gamma Group 23",
-        "teamNum": 23,
-        "description": "A compassionate Healthcare team focused on patient-centered care.",
-        "categories": ["Healthcare", "Wellness"],
-        "teamMembers": "Will, Phil, Katherine"
+        "teamName": "Delta Team 14",
+        "teamNum": 14,
+        "description": "A forward-thinking AI research team pioneering new technologies.",
+        "categories": [
+            "AI",
+            "Research",
+            "Technology"
+        ],
+        "mainCategory": "AI",
+        "teamMembers": "Will, Phil, Katherine",
+        "sectionNum": 0
     },
     {
-        "teamName": "Gamma Crew 33",
-        "teamNum": 33,
-        "description": "A caring Healthcare team focused on holistic approaches.",
-        "categories": ["Healthcare", "Wellness"],
-        "teamMembers": "Alice, Carol, Phil"
-    },
-    {
-        "teamName": "Kerby Team 7",
-        "teamNum": 7,
-        "description": "A dynamic Business/Office team optimizing workflow efficiency.",
-        "categories": ["Business/Office", "Productivity", "Finance"],
-        "teamMembers": "Katherine, Yannie, Bob"
-    },
-    {
-        "teamName": "Refresh Crew 8",
-        "teamNum": 8,
-        "description": "A superb Education team fostering innovative learning solutions.",
-        "categories": ["Education", "Research"],
-        "teamMembers": "Phil, Carol, Alice"
+        "teamName": "Echo Crew 15",
+        "teamNum": 15,
+        "description": "A creative Marketing team excelling in digital campaigns.",
+        "categories": [
+            "Marketing",
+            "Social Media"
+        ],
+        "mainCategory": "Marketing",
+        "teamMembers": "Yannie, Alice, John",
+        "sectionNum": 3
     },
     {
         "teamName": "Foxtrot Group 16",
         "teamNum": 16,
         "description": "An innovative Education team dedicated to lifelong learning.",
-        "categories": ["Education", "Research", "Technology"],
-        "teamMembers": "Bob, Carol, Will"
+        "categories": [
+            "Education",
+            "Research",
+            "Technology"
+        ],
+        "mainCategory": "Education",
+        "teamMembers": "Bob, Carol, Will",
+        "sectionNum": 4
     },
     {
-        "teamName": "Foxtrot Crew 26",
-        "teamNum": 26,
-        "description": "A versatile Education team integrating technology in classrooms.",
-        "categories": ["Education", "Technology"],
-        "teamMembers": "Katherine, Phil, Carol"
+        "teamName": "Kerby Squad 17",
+        "teamNum": 17,
+        "description": "A leading Finance team with groundbreaking financial solutions.",
+        "categories": [
+            "Finance",
+            "Business/Office"
+        ],
+        "mainCategory": "Finance",
+        "teamMembers": "Katherine, Phil, Alice",
+        "sectionNum": 5
     },
     {
-        "teamName": "Foxtrot Band 36",
-        "teamNum": 36,
-        "description": "An insightful Education team shaping future educational trends.",
-        "categories": ["Education", "Future"],
-        "teamMembers": "Carol, Phil, Yannie"
-    },
-    {
-        "teamName": "Nova Group 9",
-        "teamNum": 9,
-        "description": "An exceptional Games development team crafting engaging experiences.",
-        "categories": ["Games", "Technology", "AI"],
-        "teamMembers": "Will, Katherine, John"
+        "teamName": "Refresh Band 18",
+        "teamNum": 18,
+        "description": "A progressive Research team exploring new frontiers.",
+        "categories": [
+            "Research",
+            "Science",
+            "Technology"
+        ],
+        "mainCategory": "Research",
+        "teamMembers": "John, Will, Yannie",
+        "sectionNum": 9
     },
     {
         "teamName": "Nova Posse 19",
         "teamNum": 19,
         "description": "A powerful Games development team with a focus on mobile gaming.",
-        "categories": ["Games", "Technology"],
-        "teamMembers": "Carol, Bob, Phil"
-    },
-    {
-        "teamName": "Refresh Squad 28",
-        "teamNum": 28,
-        "description": "An expert Games development team focused on console gaming.",
-        "categories": ["Games", "Technology"],
-        "teamMembers": "Bob, Alice, Phil"
-    },
-    {
-        "teamName": "Refresh Group 38",
-        "teamNum": 38,
-        "description": "A creative Games development team focusing on narrative-driven games.",
-        "categories": ["Games", "Narrative"],
-        "teamMembers": "John, Alice, Carol"
-    },
-    {
-        "teamName": "Zeta Squad 10",
-        "teamNum": 10,
-        "description": "A leading Security team ensuring top-notch safety protocols.",
-        "categories": ["Security", "Technology"],
-        "teamMembers": "Bob, Yannie, Alice"
+        "categories": [
+            "Games",
+            "Technology"
+        ],
+        "mainCategory": "Games",
+        "teamMembers": "Carol, Bob, Phil",
+        "sectionNum": 6
     },
     {
         "teamName": "Zeta Assembly 20",
         "teamNum": 20,
         "description": "A robust Security team protecting digital assets.",
-        "categories": ["Security", "Technology"],
-        "teamMembers": "Alice, Katherine, Will"
+        "categories": [
+            "Security",
+            "Technology"
+        ],
+        "mainCategory": "Security",
+        "teamMembers": "Alice, Katherine, Will",
+        "sectionNum": 10
     },
     {
-        "teamName": "Nova Band 29",
-        "teamNum": 29,
-        "description": "A security-conscious team developing cybersecurity solutions.",
-        "categories": ["Security", "Technology"],
-        "teamMembers": "Carol, Katherine, John"
-    },
-    {
-        "teamName": "Nova Squad 39",
-        "teamNum": 39,
-        "description": "A security-focused team enhancing network security measures.",
-        "categories": ["Security", "Network"],
-        "teamMembers": "Phil, Yannie, Bob"
-    },
-    {
-        "teamName": "Alpha Band 11",
-        "teamNum": 11,
-        "description": "A skilled Productivity team streamlining corporate operations.",
-        "categories": ["Productivity", "Business/Office"],
-        "teamMembers": "Phil, Carol, Will"
-    },
-    {
-        "teamName": "Delta Squad 24",
-        "teamNum": 24,
-        "description": "A resourceful Productivity team improving business processes.",
-        "categories": ["Productivity", "Business"],
-        "teamMembers": "Carol, Yannie, John"
-    },
-    {
-        "teamName": "Echo Squad 35",
-        "teamNum": 35,
-        "description": "A dynamic Productivity team leveraging new software tools.",
-        "categories": ["Productivity", "Technology"],
-        "teamMembers": "Will, Alice, John"
-    },
-    {
-        "teamName": "Beta Posse 12",
-        "teamNum": 12,
-        "description": "A passionate XR team creating immersive experiences.",
-        "categories": ["XR", "Technology", "Games"],
-        "teamMembers": "Katherine, John, Yannie"
+        "teamName": "Alpha Team 21",
+        "teamNum": 21,
+        "description": "A dynamic Social Media team enhancing online presence.",
+        "categories": [
+            "Social Media",
+            "Marketing"
+        ],
+        "mainCategory": "Social Media",
+        "teamMembers": "Phil, John, Carol",
+        "sectionNum": 11
     },
     {
         "teamName": "Beta Crew 22",
         "teamNum": 22,
         "description": "A pioneering XR team at the forefront of virtual reality.",
-        "categories": ["XR", "Technology"],
-        "teamMembers": "Yannie, Bob, Alice"
+        "categories": [
+            "XR",
+            "Technology"
+        ],
+        "mainCategory": "XR",
+        "teamMembers": "Yannie, Bob, Alice",
+        "sectionNum": 12
+    },
+    {
+        "teamName": "Gamma Group 23",
+        "teamNum": 23,
+        "description": "A compassionate Healthcare team focused on patient-centered care.",
+        "categories": [
+            "Healthcare",
+            "Wellness"
+        ],
+        "mainCategory": "Healthcare",
+        "teamMembers": "Will, Phil, Katherine",
+        "sectionNum": 7
+    },
+    {
+        "teamName": "Delta Squad 24",
+        "teamNum": 24,
+        "description": "A resourceful Productivity team improving business processes.",
+        "categories": [
+            "Productivity",
+            "Business"
+        ],
+        "mainCategory": "Productivity",
+        "teamMembers": "Carol, Yannie, John",
+        "sectionNum": 8
+    },
+    {
+        "teamName": "Echo Band 25",
+        "teamNum": 25,
+        "description": "A dedicated Research team in the field of environmental science.",
+        "categories": [
+            "Research",
+            "Environment"
+        ],
+        "mainCategory": "Research",
+        "teamMembers": "Alice, Will, Bob",
+        "sectionNum": 9
+    },
+    {
+        "teamName": "Foxtrot Crew 26",
+        "teamNum": 26,
+        "description": "A versatile Education team integrating technology in classrooms.",
+        "categories": [
+            "Education",
+            "Technology"
+        ],
+        "mainCategory": "Education",
+        "teamMembers": "Katherine, Phil, Carol",
+        "sectionNum": 4
+    },
+    {
+        "teamName": "Kerby Group 27",
+        "teamNum": 27,
+        "description": "A strategic Finance team specializing in corporate finance.",
+        "categories": [
+            "Finance",
+            "Business"
+        ],
+        "mainCategory": "Finance",
+        "teamMembers": "John, Yannie, Will",
+        "sectionNum": 5
+    },
+    {
+        "teamName": "Refresh Squad 28",
+        "teamNum": 28,
+        "description": "An expert Games development team focused on console gaming.",
+        "categories": [
+            "Games",
+            "Technology"
+        ],
+        "mainCategory": "Games",
+        "teamMembers": "Bob, Alice, Phil",
+        "sectionNum": 6
+    },
+    {
+        "teamName": "Nova Band 29",
+        "teamNum": 29,
+        "description": "A security-conscious team developing cybersecurity solutions.",
+        "categories": [
+            "Security",
+            "Technology"
+        ],
+        "mainCategory": "Security",
+        "teamMembers": "Carol, Katherine, John",
+        "sectionNum": 10
+    },
+    {
+        "teamName": "Zeta Posse 30",
+        "teamNum": 30,
+        "description": "A creative Marketing team pioneering new advertising techniques.",
+        "categories": [
+            "Marketing",
+            "Advertising"
+        ],
+        "mainCategory": "Marketing",
+        "teamMembers": "Will, Yannie, Alice",
+        "sectionNum": 3
+    },
+    {
+        "teamName": "Alpha Assembly 31",
+        "teamNum": 31,
+        "description": "A high-impact Social Media team mastering viral content.",
+        "categories": [
+            "Social Media",
+            "Marketing"
+        ],
+        "mainCategory": "Social Media",
+        "teamMembers": "Phil, Bob, Carol",
+        "sectionNum": 11
     },
     {
         "teamName": "Beta Team 32",
         "teamNum": 32,
         "description": "A futuristic XR team pushing the boundaries of augmented reality.",
-        "categories": ["XR", "Technology"],
-        "teamMembers": "Katherine, John, Will"
+        "categories": [
+            "XR",
+            "Technology"
+        ],
+        "mainCategory": "XR",
+        "teamMembers": "Katherine, John, Will",
+        "sectionNum": 12
+    },
+    {
+        "teamName": "Gamma Crew 33",
+        "teamNum": 33,
+        "description": "A caring Healthcare team focused on holistic approaches.",
+        "categories": [
+            "Healthcare",
+            "Wellness"
+        ],
+        "mainCategory": "Healthcare",
+        "teamMembers": "Alice, Carol, Phil",
+        "sectionNum": 7
+    },
+    {
+        "teamName": "Delta Group 34",
+        "teamNum": 34,
+        "description": "A meticulous Research team investigating genetic engineering.",
+        "categories": [
+            "Research",
+            "Science"
+        ],
+        "mainCategory": "Research",
+        "teamMembers": "Yannie, Bob, Katherine",
+        "sectionNum": 9
+    },
+    {
+        "teamName": "Echo Squad 35",
+        "teamNum": 35,
+        "description": "A dynamic Productivity team leveraging new software tools.",
+        "categories": [
+            "Productivity",
+            "Technology"
+        ],
+        "mainCategory": "Productivity",
+        "teamMembers": "Will, Alice, John",
+        "sectionNum": 8
+    },
+    {
+        "teamName": "Foxtrot Band 36",
+        "teamNum": 36,
+        "description": "An insightful Education team shaping future educational trends.",
+        "categories": [
+            "Education",
+            "Future"
+        ],
+        "mainCategory": "Education",
+        "teamMembers": "Carol, Phil, Yannie",
+        "sectionNum": 4
+    },
+    {
+        "teamName": "Kerby Crew 37",
+        "teamNum": 37,
+        "description": "A proficient Finance team optimizing investment strategies.",
+        "categories": [
+            "Finance",
+            "Investment"
+        ],
+        "mainCategory": "Finance",
+        "teamMembers": "Bob, Katherine, Will",
+        "sectionNum": 5
+    },
+    {
+        "teamName": "Refresh Group 38",
+        "teamNum": 38,
+        "description": "A creative Games development team focusing on narrative-driven games.",
+        "categories": [
+            "Games",
+            "Narrative"
+        ],
+        "mainCategory": "Games",
+        "teamMembers": "John, Alice, Carol",
+        "sectionNum": 6
+    },
+    {
+        "teamName": "Nova Squad 39",
+        "teamNum": 39,
+        "description": "A security-focused team enhancing network security measures.",
+        "categories": [
+            "Security",
+            "Network"
+        ],
+        "mainCategory": "Security",
+        "teamMembers": "Phil, Yannie, Bob",
+        "sectionNum": 10
+    },
+    {
+        "teamName": "Zeta Team 40",
+        "teamNum": 40,
+        "description": "A revolutionary Marketing team transforming consumer interaction.",
+        "categories": [
+            "Marketing",
+            "Consumer Behavior"
+        ],
+        "mainCategory": "Marketing",
+        "teamMembers": "Alice, Will, Katherine",
+        "sectionNum": 3
     }
 ]

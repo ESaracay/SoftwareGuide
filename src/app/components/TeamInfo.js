@@ -41,7 +41,7 @@ const TeamInfo = ({ teamName, teamNum, description, teamMembers, categories, cat
           );
         })}
       </div>
-      <p>Team Members: {teamMembers}</p>
+      <p>Team Members: {teamMembers}; Table Num: {teamNum}</p>
       <button
         className="text-blue-500 hover:text-blue-700 cursor-pointer pt-4 pb-2"
         onClick={() => setShowDescription(!showDescription)}
