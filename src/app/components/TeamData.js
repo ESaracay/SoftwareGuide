@@ -7,6 +7,8 @@ const TeamData = ({ categoryMap }) => {
     const [suggestions, setSuggestions] = useState([]);
     const [showSuggestions, setShowSuggestions] = useState(false);
     const [openSection, setOpenSection] = useState(null);
+    const [selectedTeam, setSelectedTeam] = useState(null);
+
 
     const teams = teamsJson;
 
@@ -15,9 +17,13 @@ const TeamData = ({ categoryMap }) => {
         setSearchQuery(query);
 
         if (query.length > 0) {
-            const filteredSuggestions = teams
+            let filteredSuggestions = teams
                 .flatMap(team => [team.teamName, ...team.teamMembers.split(', ')])
                 .filter(item => item.toLowerCase().includes(query.toLowerCase()));
+            // only want to show top 10 queries
+            if (filteredSuggestions.length > 10) {
+                filteredSuggestions = filteredSuggestions.slice(0,10)
+            }
 
             setSuggestions(filteredSuggestions);
             setShowSuggestions(true);
@@ -36,26 +42,29 @@ const TeamData = ({ categoryMap }) => {
         );
 
         if (matchingTeam) {
+            setSelectedTeam(matchingTeam);
             setOpenSection(matchingTeam.categories[0]);
         }
     };
 
-    const filteredTeams = teams.filter(team =>
-        team.teamName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        team.teamMembers.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    const groupedTeams = teams.reduce((acc, team) => {
+        const categories = team.categories;
+        const sectionsAdded = new Set(); // Keep track of sections a team has been added to
 
-    const groupedTeams = filteredTeams.reduce((acc, team) => {
-        const category = team.mainCategory;
-        const section = categoryMap[category]?.section;
-        if (section !== undefined) {
-            if (!acc[section]) {
-                acc[section] = [];
+        categories.forEach((category) => {
+            const section = categoryMap[category]?.section;
+            if (section !== undefined && !sectionsAdded.has(section)) {
+                if (!acc[section]) {
+                    acc[section] = [];
+                }
+                acc[section].push(team);
+                sectionsAdded.add(section); // Mark this section as added
             }
-            acc[section].push(team);
-        }
-        return acc;
-    }, {});
+    });
+
+    return acc;
+}, {});
+ 
 
     return (
         <div>
@@ -87,12 +96,25 @@ const TeamData = ({ categoryMap }) => {
                 </ul>
             )}
 
+            {selectedTeam && (
+                <div className="m-4 p-4 border border-gray-400 rounded w-7/8 bg-white">
+                    <TeamInfo 
+                        teamName={selectedTeam.teamName}
+                        teamNum={selectedTeam.teamNum}
+                        description={selectedTeam.description}
+                        categories={selectedTeam.categories}
+                        teamMembers={selectedTeam.teamMembers}
+                        categoryMap={categoryMap}
+                    />
+                </div>
+            )}
+
             {Object.keys(categoryMap).map((category, index) => {
                 const section = categoryMap[category].section;
                 const teamsInSection = groupedTeams[section] || [];
                 
                 if (teamsInSection.length === 0) return null; // Only show categories with filtered teams
-                const section_num = teamsInSection[0].sectionNum;
+                const section_num = parseInt(section, 10)
 
                 return (
                     <details key={index} id={`section-${section_num}`} className="m-4 border-b-4 border-black p-4" open={openSection === category}>

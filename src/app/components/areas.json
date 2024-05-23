@@ -16,7 +16,7 @@
         "fillColor": "#000000"
     },
     {
-        "name": "5-2",
+        "name": "0-2",
         "shape": "poly",
         "coords": [
             124,
@@ -28,11 +28,11 @@
             140,
             351
         ],
-        "preFillColor": "#FB923C",
+        "preFillColor": "#EF4444",
         "fillColor": "#000000"
     },
     {
-        "name": "3-3",
+        "name": "0-3",
         "shape": "poly",
         "coords": [
             171,
@@ -44,11 +44,11 @@
             186,
             328
         ],
-        "preFillColor": "#EC4899",
+        "preFillColor": "#EF4444",
         "fillColor": "#000000"
     },
     {
-        "name": "9-4",
+        "name": "0-4",
         "shape": "poly",
         "coords": [
             217,
@@ -60,27 +60,11 @@
             233,
             304
         ],
-        "preFillColor": "#34D399",
+        "preFillColor": "#EF4444",
         "fillColor": "#000000"
     },
     {
-        "name": "11-5",
-        "shape": "poly",
-        "coords": [
-            264,
-            289,
-            294,
-            304,
-            310,
-            297,
-            279,
-            281
-        ],
-        "preFillColor": "#38BDF8",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "7-6",
+        "name": "11-6",
         "shape": "poly",
         "coords": [
             312,
@@ -92,11 +76,27 @@
             326,
             257
         ],
-        "preFillColor": "#FACC15",
+        "preFillColor": "#38BDF8",
         "fillColor": "#000000"
     },
     {
-        "name": "2-7",
+        "name": "0-6",
+        "shape": "poly",
+        "coords": [
+            312,
+            264,
+            342,
+            279,
+            357,
+            272,
+            326,
+            257
+        ],
+        "preFillColor": "#EF4444",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "11-7",
         "shape": "poly",
         "coords": [
             357,
@@ -108,539 +108,7 @@
             373,
             234
         ],
-        "preFillColor": "#4ADE80",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "4-8",
-        "shape": "poly",
-        "coords": [
-            404,
-            218,
-            434,
-            233,
-            450,
-            226,
-            420,
-            211
-        ],
-        "preFillColor": "#A3E635",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "6-9",
-        "shape": "poly",
-        "coords": [
-            450,
-            194,
-            482,
-            210,
-            496,
-            203,
-            466,
-            187
-        ],
-        "preFillColor": "#A855F7",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "10-10",
-        "shape": "poly",
-        "coords": [
-            497,
-            172,
-            528,
-            187,
-            542,
-            180,
-            512,
-            165
-        ],
-        "preFillColor": "#D946EF",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "8-11",
-        "shape": "poly",
-        "coords": [
-            544,
-            148,
-            574,
-            163,
-            588,
-            156,
-            559,
-            141
-        ],
-        "preFillColor": "#991B1B",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "12-12",
-        "shape": "poly",
-        "coords": [
-            589,
-            125,
-            621,
-            140,
-            635,
-            133,
-            605,
-            118
-        ],
-        "preFillColor": "#F59E0B",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "7-13",
-        "shape": "poly",
-        "coords": [
-            635,
-            102,
-            667,
-            117,
-            682,
-            110,
-            651,
-            94
-        ],
-        "preFillColor": "#FACC15",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "0-14",
-        "shape": "poly",
-        "coords": [
-            151,
-            406,
-            182,
-            422,
-            197,
-            414,
-            166,
-            399
-        ],
-        "preFillColor": "#EF4444",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "3-15",
-        "shape": "poly",
-        "coords": [
-            198,
-            383,
-            228,
-            398,
-            243,
-            391,
-            213,
-            376
-        ],
-        "preFillColor": "#EC4899",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "4-16",
-        "shape": "poly",
-        "coords": [
-            245,
-            360,
-            275,
-            375,
-            290,
-            368,
-            259,
-            352,
-            259,
-            353
-        ],
-        "preFillColor": "#A3E635",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "5-17",
-        "shape": "poly",
-        "coords": [
-            291,
-            336,
-            321,
-            351,
-            335,
-            344,
-            305,
-            329
-        ],
-        "preFillColor": "#FB923C",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "9-18",
-        "shape": "poly",
-        "coords": [
-            337,
-            313,
-            368,
-            328,
-            383,
-            321,
-            352,
-            306
-        ],
-        "preFillColor": "#34D399",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "6-19",
-        "shape": "poly",
-        "coords": [
-            387,
-            290,
-            416,
-            304,
-            431,
-            297,
-            400,
-            283
-        ],
-        "preFillColor": "#A855F7",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "10-20",
-        "shape": "poly",
-        "coords": [
-            432,
-            266,
-            462,
-            281,
-            476,
-            274,
-            446,
-            259
-        ],
-        "preFillColor": "#D946EF",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "11-21",
-        "shape": "poly",
-        "coords": [
-            479,
-            243,
-            508,
-            258,
-            523,
-            251,
-            493,
-            236
-        ],
         "preFillColor": "#38BDF8",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "12-22",
-        "shape": "poly",
-        "coords": [
-            525,
-            219,
-            555,
-            234,
-            569,
-            227,
-            539,
-            213
-        ],
-        "preFillColor": "#F59E0B",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "7-23",
-        "shape": "poly",
-        "coords": [
-            571,
-            197,
-            602,
-            211,
-            615,
-            204,
-            586,
-            189
-        ],
-        "preFillColor": "#FACC15",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "8-24",
-        "shape": "poly",
-        "coords": [
-            617,
-            173,
-            648,
-            188,
-            662,
-            181,
-            633,
-            166
-        ],
-        "preFillColor": "#991B1B",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "9-25",
-        "shape": "poly",
-        "coords": [
-            664,
-            150,
-            694,
-            165,
-            708,
-            158,
-            678,
-            143
-        ],
-        "preFillColor": "#34D399",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "4-26",
-        "shape": "poly",
-        "coords": [
-            711,
-            127,
-            741,
-            142,
-            755,
-            135,
-            725,
-            120
-        ],
-        "preFillColor": "#A3E635",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "5-27",
-        "shape": "poly",
-        "coords": [
-            208,
-            446,
-            238,
-            461,
-            252,
-            454,
-            222,
-            439
-        ],
-        "preFillColor": "#FB923C",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "6-28",
-        "shape": "poly",
-        "coords": [
-            254,
-            423,
-            286,
-            438,
-            299,
-            431,
-            268,
-            416
-        ],
-        "preFillColor": "#A855F7",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "10-29",
-        "shape": "poly",
-        "coords": [
-            301,
-            399,
-            332,
-            415,
-            345,
-            408,
-            315,
-            393
-        ],
-        "preFillColor": "#D946EF",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "3-30",
-        "shape": "poly",
-        "coords": [
-            348,
-            376,
-            378,
-            391,
-            391,
-            384,
-            362,
-            370
-        ],
-        "preFillColor": "#EC4899",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "11-31",
-        "shape": "poly",
-        "coords": [
-            394,
-            353,
-            424,
-            368,
-            438,
-            361,
-            409,
-            346
-        ],
-        "preFillColor": "#38BDF8",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "12-32",
-        "shape": "poly",
-        "coords": [
-            442,
-            329,
-            472,
-            344,
-            486,
-            337,
-            456,
-            322
-        ],
-        "preFillColor": "#F59E0B",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "7-33",
-        "shape": "poly",
-        "coords": [
-            488,
-            307,
-            518,
-            321,
-            533,
-            314,
-            503,
-            299
-        ],
-        "preFillColor": "#FACC15",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "9-34",
-        "shape": "poly",
-        "coords": [
-            535,
-            283,
-            565,
-            297,
-            579,
-            291,
-            548,
-            276
-        ],
-        "preFillColor": "#34D399",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "8-35",
-        "shape": "poly",
-        "coords": [
-            581,
-            259,
-            611,
-            274,
-            625,
-            268,
-            595,
-            253
-        ],
-        "preFillColor": "#991B1B",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "4-36",
-        "shape": "poly",
-        "coords": [
-            628,
-            236,
-            659,
-            251,
-            671,
-            245,
-            641,
-            230
-        ],
-        "preFillColor": "#A3E635",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "5-37",
-        "shape": "poly",
-        "coords": [
-            675,
-            213,
-            704,
-            228,
-            717,
-            221,
-            689,
-            207
-        ],
-        "preFillColor": "#FB923C",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "6-38",
-        "shape": "poly",
-        "coords": [
-            721,
-            190,
-            749,
-            204,
-            763,
-            198,
-            734,
-            183
-        ],
-        "preFillColor": "#A855F7",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "10-39",
-        "shape": "poly",
-        "coords": [
-            767,
-            167,
-            797,
-            182,
-            810,
-            175,
-            781,
-            159
-        ],
-        "preFillColor": "#D946EF",
-        "fillColor": "#000000"
-    },
-    {
-        "name": "3-40",
-        "shape": "poly",
-        "coords": [
-            337,
-            443,
-            367,
-            458,
-            379,
-            452,
-            350,
-            437,
-            349,
-            437
-        ],
-        "preFillColor": "#EC4899",
         "fillColor": "#000000"
     }
 ]

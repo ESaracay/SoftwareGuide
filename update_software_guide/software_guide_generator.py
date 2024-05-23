@@ -85,7 +85,7 @@ def process_teams_and_generate_json(team_file_path, layout_file_path, categories
     team_info_ls = []
     image_map_areas = []
 
-    with open(team_file_path, 'r') as csv_file:
+    with open(team_file_path, mode='r', encoding='utf-8') as csv_file:
         reader = csv.DictReader(csv_file)
         for row in reader:
             main_category = row["main_category"]

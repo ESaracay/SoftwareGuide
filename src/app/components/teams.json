@@ -1,491 +1,88 @@
 [
     {
-        "teamName": "Alpha Crew",
+        "teamName": "SRK",
         "teamNum": 1,
-        "description": "A dynamic AI team that excels in all aspects.",
+        "description": "We are building an AI tool that turns your research papers into a connected knowledge graph!",
         "categories": [
             "AI",
-            "Finance",
-            "Research"
+            "Productivity"
         ],
         "mainCategory": "AI",
-        "teamMembers": "Phil, Yannie, Katherine",
+        "teamMembers": "Kapil Iyer, Sam Do, Rohan Sikand, Andre Yeung",
         "sectionNum": 0
     },
     {
-        "teamName": "Beta Group",
+        "teamName": "Financier",
         "teamNum": 2,
-        "description": "An innovative Finance team committed to excellence.",
+        "description": "Our product, Financier, extends the functionality of 13f.info which serves as a user-friendly platform to access SEC 13F filings\u00e2\u20ac\u201dquarterly reports showcasing equity assets held by institutional investment managers. We build upon this existing framework by creating a generative AI model capable of analyzing these lengthy and monotonous reports into meaningful analysis. Financier aims to transform this basic utility into a dynamic analytical platform by integrating a GPT-like AI. This AI will allow users to interact with the tool using natural language queries, offering deeper insights and more granular analysis of hedge fund positions, changes, and performance metrics. By leveraging the existing data infrastructure of 13f.info and enhancing it with cutting-edge AI technology, our product will provide unprecedented access to sophisticated financial analysis that caters to both professional and casual investors.",
         "categories": [
-            "Finance",
-            "Marketing"
-        ],
-        "mainCategory": "Finance",
-        "teamMembers": "Will, Alice, Bob",
-        "sectionNum": 5
-    },
-    {
-        "teamName": "Gamma Squad",
-        "teamNum": 3,
-        "description": "A super Marketing team with great creative insights.",
-        "categories": [
-            "Marketing",
-            "Social Media",
-            "Games"
-        ],
-        "mainCategory": "Marketing",
-        "teamMembers": "Carol, Phil, Katherine",
-        "sectionNum": 3
-    },
-    {
-        "teamName": "Delta Band",
-        "teamNum": 4,
-        "description": "A leading Research team pushing the boundaries of technology.",
-        "categories": [
-            "Research",
-            "Education",
-            "AI"
-        ],
-        "mainCategory": "Research",
-        "teamMembers": "Alice, Will, Yannie",
-        "sectionNum": 9
-    },
-    {
-        "teamName": "Echo Posse",
-        "teamNum": 5,
-        "description": "An incredible Social Media team with a knack for engagement.",
-        "categories": [
-            "Social Media",
-            "Marketing"
-        ],
-        "mainCategory": "Social Media",
-        "teamMembers": "Phil, Bob, Carol",
-        "sectionNum": 11
-    },
-    {
-        "teamName": "Foxtrot Assembly",
-        "teamNum": 6,
-        "description": "A fantastic Healthcare team improving patient care.",
-        "categories": [
-            "Healthcare",
-            "Research"
-        ],
-        "mainCategory": "Healthcare",
-        "teamMembers": "Will, Alice, John",
-        "sectionNum": 7
-    },
-    {
-        "teamName": "Kerby Team",
-        "teamNum": 7,
-        "description": "A dynamic Business/Office team optimizing workflow efficiency.",
-        "categories": [
-            "Business/Office",
-            "Productivity",
+            "AI",
             "Finance"
         ],
-        "mainCategory": "Business/Office",
-        "teamMembers": "Katherine, Yannie, Bob",
-        "sectionNum": 2
-    },
-    {
-        "teamName": "Refresh Crew",
-        "teamNum": 8,
-        "description": "A superb Education team fostering innovative learning solutions.",
-        "categories": [
-            "Education",
-            "Research"
-        ],
-        "mainCategory": "Education",
-        "teamMembers": "Phil, Carol, Alice",
-        "sectionNum": 4
-    },
-    {
-        "teamName": "Nova Group",
-        "teamNum": 9,
-        "description": "An exceptional Games development team crafting engaging experiences.",
-        "categories": [
-            "Games",
-            "Technology",
-            "AI"
-        ],
-        "mainCategory": "Games",
-        "teamMembers": "Will, Katherine, John",
-        "sectionNum": 6
-    },
-    {
-        "teamName": "Zeta Squad",
-        "teamNum": 10,
-        "description": "A leading Security team ensuring top-notch safety protocols.",
-        "categories": [
-            "Security",
-            "Technology"
-        ],
-        "mainCategory": "Security",
-        "teamMembers": "Bob, Yannie, Alice",
-        "sectionNum": 10
-    },
-    {
-        "teamName": "Alpha Band",
-        "teamNum": 11,
-        "description": "A skilled Productivity team streamlining corporate operations.",
-        "categories": [
-            "Productivity",
-            "Business/Office"
-        ],
-        "mainCategory": "Productivity",
-        "teamMembers": "Phil, Carol, Will",
-        "sectionNum": 8
-    },
-    {
-        "teamName": "Beta Posse",
-        "teamNum": 12,
-        "description": "A passionate XR team creating immersive experiences.",
-        "categories": [
-            "XR",
-            "Technology",
-            "Games"
-        ],
-        "mainCategory": "XR",
-        "teamMembers": "Katherine, John, Yannie",
-        "sectionNum": 12
-    },
-    {
-        "teamName": "Gamma Assembly 13",
-        "teamNum": 13,
-        "description": "A dedicated Healthcare team driven by innovation and care.",
-        "categories": [
-            "Healthcare",
-            "Wellness"
-        ],
-        "mainCategory": "Healthcare",
-        "teamMembers": "Alice, Bob, Carol",
-        "sectionNum": 7
-    },
-    {
-        "teamName": "Delta Team 14",
-        "teamNum": 14,
-        "description": "A forward-thinking AI research team pioneering new technologies.",
-        "categories": [
-            "AI",
-            "Research",
-            "Technology"
-        ],
         "mainCategory": "AI",
-        "teamMembers": "Will, Phil, Katherine",
+        "teamMembers": "Shawn Charles, Omar Ramos Escoto, Diego Zancaneli, Koren Gilbai, Tomas Pfeffer",
         "sectionNum": 0
     },
     {
-        "teamName": "Echo Crew 15",
-        "teamNum": 15,
-        "description": "A creative Marketing team excelling in digital campaigns.",
+        "teamName": "GenreGenius",
+        "teamNum": 3,
+        "description": "We built an ML model capable of identifying the genre of music. We also built an App to help educate people in the music industry about the potential of AI/ML for their field",
         "categories": [
-            "Marketing",
-            "Social Media"
+            "AI",
+            "AI Research"
         ],
-        "mainCategory": "Marketing",
-        "teamMembers": "Yannie, Alice, John",
-        "sectionNum": 3
+        "mainCategory": "AI",
+        "teamMembers": "Sathvik Nori, Yifan Yang, Adrian Adegbesan",
+        "sectionNum": 0
     },
     {
-        "teamName": "Foxtrot Group 16",
-        "teamNum": 16,
-        "description": "An innovative Education team dedicated to lifelong learning.",
+        "teamName": "Sternfahrt",
+        "teamNum": 4,
+        "description": "DriveAhead is a meeting assistant designed specifically for Mercedes drivers who have multiple meetings with new people during the day. While driving to work, the user can interact with the voice-enabled assistant to prepare for their upcoming meetings. The assistant links to the user's calendar to get a list of meetings and attendees, scraping LinkedIn data for those attendees. DriveAhead also has access to Wikipedia and can actively search LinkedIn for more people if prompted by the user.The driver can ask questions about meeting topics, attendee backgrounds, and potential connections they may have based on their own LinkedIn profile data (e.g. same university). After the meeting prep, DriveAhead emails a summary to the user for future reference.The DriveAhead product is hosted on Streamlit, where the user can type queries and receive text responses, or use voice input/output. The core value proposition is providing meeting intelligence and prep while taking advantage of drive time.",
         "categories": [
-            "Education",
-            "Research",
-            "Technology"
+            "Automotive",
+            "Business/Office",
+            "Productivity"
         ],
-        "mainCategory": "Education",
-        "teamMembers": "Bob, Carol, Will",
-        "sectionNum": 4
+        "mainCategory": "AI",
+        "teamMembers": "Daniel Lee, Yubin Jee, Jian Xu, Ellie Yang",
+        "sectionNum": 0
     },
     {
-        "teamName": "Kerby Squad 17",
-        "teamNum": 17,
-        "description": "A leading Finance team with groundbreaking financial solutions.",
-        "categories": [
-            "Finance",
-            "Business/Office"
-        ],
-        "mainCategory": "Finance",
-        "teamMembers": "Katherine, Phil, Alice",
-        "sectionNum": 5
-    },
-    {
-        "teamName": "Refresh Band 18",
-        "teamNum": 18,
-        "description": "A progressive Research team exploring new frontiers.",
-        "categories": [
-            "Research",
-            "Science",
-            "Technology"
-        ],
-        "mainCategory": "Research",
-        "teamMembers": "John, Will, Yannie",
-        "sectionNum": 9
-    },
-    {
-        "teamName": "Nova Posse 19",
-        "teamNum": 19,
-        "description": "A powerful Games development team with a focus on mobile gaming.",
-        "categories": [
-            "Games",
-            "Technology"
-        ],
-        "mainCategory": "Games",
-        "teamMembers": "Carol, Bob, Phil",
-        "sectionNum": 6
-    },
-    {
-        "teamName": "Zeta Assembly 20",
-        "teamNum": 20,
-        "description": "A robust Security team protecting digital assets.",
-        "categories": [
-            "Security",
-            "Technology"
-        ],
-        "mainCategory": "Security",
-        "teamMembers": "Alice, Katherine, Will",
-        "sectionNum": 10
-    },
-    {
-        "teamName": "Alpha Team 21",
-        "teamNum": 21,
-        "description": "A dynamic Social Media team enhancing online presence.",
+        "teamName": "Relative Refresh",
+        "teamNum": 6,
+        "description": "Our team, in partnership with Hospital Israelita Albert Einstein, supports NGOs creating upcycled products by assisting artisans in building their public profile, connecting with other upcycling partners, and sharing stories about their products. The goal of our platform is to \u00e2\u20ac\u0153get more eyes on upcycling\u00e2\u20ac\u009d, which is rooted in our belief that consumer viable upcycled products are possible only as awareness of the upcycling process increases both among members of the public and within waste producing organizations. Our target user is NGO administrative staff who can use our web app to generate engaging content that can be attached to their products using QR codes and an upcycling-centered public profile page that helps connect waste suppliers with producers of upcycled products.",
         "categories": [
             "Social Media",
-            "Marketing"
-        ],
-        "mainCategory": "Social Media",
-        "teamMembers": "Phil, John, Carol",
-        "sectionNum": 11
-    },
-    {
-        "teamName": "Beta Crew 22",
-        "teamNum": 22,
-        "description": "A pioneering XR team at the forefront of virtual reality.",
-        "categories": [
-            "XR",
-            "Technology"
-        ],
-        "mainCategory": "XR",
-        "teamMembers": "Yannie, Bob, Alice",
-        "sectionNum": 12
-    },
-    {
-        "teamName": "Gamma Group 23",
-        "teamNum": 23,
-        "description": "A compassionate Healthcare team focused on patient-centered care.",
-        "categories": [
-            "Healthcare",
-            "Wellness"
-        ],
-        "mainCategory": "Healthcare",
-        "teamMembers": "Will, Phil, Katherine",
-        "sectionNum": 7
-    },
-    {
-        "teamName": "Delta Squad 24",
-        "teamNum": 24,
-        "description": "A resourceful Productivity team improving business processes.",
-        "categories": [
-            "Productivity",
-            "Business"
-        ],
-        "mainCategory": "Productivity",
-        "teamMembers": "Carol, Yannie, John",
-        "sectionNum": 8
-    },
-    {
-        "teamName": "Echo Band 25",
-        "teamNum": 25,
-        "description": "A dedicated Research team in the field of environmental science.",
-        "categories": [
-            "Research",
             "Environment"
         ],
-        "mainCategory": "Research",
-        "teamMembers": "Alice, Will, Bob",
-        "sectionNum": 9
-    },
-    {
-        "teamName": "Foxtrot Crew 26",
-        "teamNum": 26,
-        "description": "A versatile Education team integrating technology in classrooms.",
-        "categories": [
-            "Education",
-            "Technology"
-        ],
-        "mainCategory": "Education",
-        "teamMembers": "Katherine, Phil, Carol",
-        "sectionNum": 4
-    },
-    {
-        "teamName": "Kerby Group 27",
-        "teamNum": 27,
-        "description": "A strategic Finance team specializing in corporate finance.",
-        "categories": [
-            "Finance",
-            "Business"
-        ],
-        "mainCategory": "Finance",
-        "teamMembers": "John, Yannie, Will",
-        "sectionNum": 5
-    },
-    {
-        "teamName": "Refresh Squad 28",
-        "teamNum": 28,
-        "description": "An expert Games development team focused on console gaming.",
-        "categories": [
-            "Games",
-            "Technology"
-        ],
-        "mainCategory": "Games",
-        "teamMembers": "Bob, Alice, Phil",
-        "sectionNum": 6
-    },
-    {
-        "teamName": "Nova Band 29",
-        "teamNum": 29,
-        "description": "A security-conscious team developing cybersecurity solutions.",
-        "categories": [
-            "Security",
-            "Technology"
-        ],
-        "mainCategory": "Security",
-        "teamMembers": "Carol, Katherine, John",
-        "sectionNum": 10
-    },
-    {
-        "teamName": "Zeta Posse 30",
-        "teamNum": 30,
-        "description": "A creative Marketing team pioneering new advertising techniques.",
-        "categories": [
-            "Marketing",
-            "Advertising"
-        ],
-        "mainCategory": "Marketing",
-        "teamMembers": "Will, Yannie, Alice",
-        "sectionNum": 3
-    },
-    {
-        "teamName": "Alpha Assembly 31",
-        "teamNum": 31,
-        "description": "A high-impact Social Media team mastering viral content.",
-        "categories": [
-            "Social Media",
-            "Marketing"
-        ],
         "mainCategory": "Social Media",
-        "teamMembers": "Phil, Bob, Carol",
+        "teamMembers": "Philip Baillargeon, Alyssa Koh, Amantina Rossi, Alissa Vuillier",
         "sectionNum": 11
     },
     {
-        "teamName": "Beta Team 32",
-        "teamNum": 32,
-        "description": "A futuristic XR team pushing the boundaries of augmented reality.",
-        "categories": [
-            "XR",
-            "Technology"
-        ],
-        "mainCategory": "XR",
-        "teamMembers": "Katherine, John, Will",
-        "sectionNum": 12
-    },
-    {
-        "teamName": "Gamma Crew 33",
-        "teamNum": 33,
-        "description": "A caring Healthcare team focused on holistic approaches.",
-        "categories": [
-            "Healthcare",
-            "Wellness"
-        ],
-        "mainCategory": "Healthcare",
-        "teamMembers": "Alice, Carol, Phil",
-        "sectionNum": 7
-    },
-    {
-        "teamName": "Delta Group 34",
-        "teamNum": 34,
-        "description": "A meticulous Research team investigating genetic engineering.",
-        "categories": [
-            "Research",
-            "Science"
-        ],
-        "mainCategory": "Research",
-        "teamMembers": "Yannie, Bob, Katherine",
-        "sectionNum": 9
-    },
-    {
-        "teamName": "Echo Squad 35",
-        "teamNum": 35,
-        "description": "A dynamic Productivity team leveraging new software tools.",
-        "categories": [
-            "Productivity",
-            "Technology"
-        ],
-        "mainCategory": "Productivity",
-        "teamMembers": "Will, Alice, John",
-        "sectionNum": 8
-    },
-    {
-        "teamName": "Foxtrot Band 36",
-        "teamNum": 36,
-        "description": "An insightful Education team shaping future educational trends.",
+        "teamName": "GenreGenius",
+        "teamNum": 6,
+        "description": "GenreGenius is a machine learning based music/sound classifier.",
         "categories": [
             "Education",
-            "Future"
+            "Research",
+            "Music"
         ],
-        "mainCategory": "Education",
-        "teamMembers": "Carol, Phil, Yannie",
-        "sectionNum": 4
+        "mainCategory": "AI",
+        "teamMembers": "Yifan, Sathvik, Adrian",
+        "sectionNum": 0
     },
     {
-        "teamName": "Kerby Crew 37",
-        "teamNum": 37,
-        "description": "A proficient Finance team optimizing investment strategies.",
+        "teamName": "Flex",
+        "teamNum": 7,
+        "description": "FLEX is a social media application designed for active individuals who are interested in finding community. It revolutionizes the way people connect, share, and motivate each other on their fitness journeys\u00e2\u20ac\u201cwe recognize that this is a journey that may look different for all users so we seek to offer a ton of specialized groups [\u00e2\u20ac\u0153communities\u00e2\u20ac\u009d that people can join/these communities can also be used for event organization (think running clubs)] catering to various interests and different fitness levels. On the platform, users will be able to create a personalized profile that can showcase their goals, achievements, and workouts, and they will be able to share media (privately or publicly) to a feed too.",
         "categories": [
-            "Finance",
-            "Investment"
+            "Social Media",
+            "Fitness"
         ],
-        "mainCategory": "Finance",
-        "teamMembers": "Bob, Katherine, Will",
-        "sectionNum": 5
-    },
-    {
-        "teamName": "Refresh Group 38",
-        "teamNum": 38,
-        "description": "A creative Games development team focusing on narrative-driven games.",
-        "categories": [
-            "Games",
-            "Narrative"
-        ],
-        "mainCategory": "Games",
-        "teamMembers": "John, Alice, Carol",
-        "sectionNum": 6
-    },
-    {
-        "teamName": "Nova Squad 39",
-        "teamNum": 39,
-        "description": "A security-focused team enhancing network security measures.",
-        "categories": [
-            "Security",
-            "Network"
-        ],
-        "mainCategory": "Security",
-        "teamMembers": "Phil, Yannie, Bob",
-        "sectionNum": 10
-    },
-    {
-        "teamName": "Zeta Team 40",
-        "teamNum": 40,
-        "description": "A revolutionary Marketing team transforming consumer interaction.",
-        "categories": [
-            "Marketing",
-            "Consumer Behavior"
-        ],
-        "mainCategory": "Marketing",
-        "teamMembers": "Alice, Will, Katherine",
-        "sectionNum": 3
+        "mainCategory": "Social Media",
+        "teamMembers": "Asher Hensley, Christian Davis, Joanna Jo, Stephanie Yescas, Travis Grafton",
+        "sectionNum": 11
     }
 ]
