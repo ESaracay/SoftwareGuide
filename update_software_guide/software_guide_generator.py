@@ -12,6 +12,30 @@ def convert_str_to_list(str_list):
         return ast.literal_eval(str_list)
     except (ValueError, SyntaxError):
         return []
+    
+def split_coords(coords):
+    if len(coords) != 8:
+        print(len(coords))
+        raise ValueError("Expected 8 coordinates representing a rectangle.")
+
+    # Extract coordinates
+    x1, y1 = coords[0], coords[1]
+    x2, y2 = coords[2], coords[3]
+    x3, y3 = coords[4], coords[5]
+    x4, y4 = coords[6], coords[7]
+
+    midpoint_x_bot = (x1 + x2) // 2
+    midpoint_y_bot = (y1 + y2) // 2
+    midpoint_x_top = (x3 + x4) // 2
+    midpoint_y_top = (y3 + y4) // 2
+
+    # First half rectangle (left)
+    first_half = [x1, y1, midpoint_x_bot, midpoint_y_bot, midpoint_x_top, midpoint_y_top, x4, y4]
+
+    # Second half rectangle (right)
+    second_half = [midpoint_x_bot, midpoint_y_bot, x2, y2, x3, y3, midpoint_x_top, midpoint_y_top]
+
+    return first_half, second_half
 
 def csvlayout_to_dict(csv_file_path):
     """
@@ -23,10 +47,12 @@ def csvlayout_to_dict(csv_file_path):
         for row in reader:
             table_num = int(row['table_num'])
             coords = convert_str_to_list(row['coords'])
-            table_coords[table_num] = coords
+            first_half, second_half = split_coords(coords)
+
+            table_coords[table_num*2 - 1] = first_half
+            table_coords[table_num*2] = second_half
 
     return table_coords
-
 def generate_category_map_from_csv(csv_path):
     """
         Generates the categoryMap.js component by using the values listed in the .csv file
@@ -88,8 +114,13 @@ def process_teams_and_generate_json(team_file_path, layout_file_path, categories
     with open(team_file_path, mode='r', encoding='utf-8') as csv_file:
         reader = csv.DictReader(csv_file)
         for row in reader:
-            main_category = row["main_category"]
             table_num = int(row["table_num"])
+
+            # Code that sets preference for revealing projects with AI
+            ai_related = row['has_ai']
+            main_category = row["categories"].split(", ")[0]
+            if (ai_related == "Yes"):
+                main_category = "AI"
 
             if main_category not in category_data:
                 raise LookupError(f"Main Category: {main_category} not found in Category Data: ")
@@ -132,7 +163,6 @@ def generate_team_info(team_data, section_num):
         "teamNum": int(team_data['table_num']),
         "description": team_data['description'],
         "categories": team_data['categories'].split(", "),
-        "mainCategory": team_data["main_category"],
         "teamMembers": team_data['members'],
         "sectionNum": section_num
     }
