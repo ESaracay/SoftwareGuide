@@ -7,7 +7,7 @@ npm run dev
 ```
 
 Note that this website is hosted on github io pages. With the correct
-Repo configuraitons you can simply bush to main to update the software guide.
+Repo configuraitons you can simply push to main to update the software guide.
 
 ## Updating the Software Guide
 To update team information for the software guide you need only touch the
@@ -19,3 +19,8 @@ python .\software_guide_generator.py
 ```
 This will automatically write the relevent .json files and code to the 
 Next.js project and update the software guide. 
+
+### How to change teaminfo
+Note that all of the team information can be found team_info.csv inside of the update_software_guide folder.
+Here you can change the table each team is assigned to and any other relevant info. To assign two teams to
+the same table you can simply append .a or .b to that teams table number. 
