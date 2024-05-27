@@ -38,7 +38,7 @@ const ResponsiveImageMapper = ({ src, map, imgWidth, clickFunc, parentWidth = '1
   const scale = dimensions.width / imgWidth;
   const shiftDown = 20;
   const shiftLeft = -15;
-  const baseFontSize = 14;
+  const baseFontSize = 10;
   const baseSize = 20; // Base size of the circle in pixels
 
   const handleMouseEnter = (index, coords) => {
@@ -56,7 +56,7 @@ const ResponsiveImageMapper = ({ src, map, imgWidth, clickFunc, parentWidth = '1
       {map.areas.map((area, index) => {
         const scaledAreaCoords = scaledCoords(area.coords, scale);
         const [centerX, centerY] = getPolygonCenter(scaledAreaCoords);
-        const tableNum = area.name.split('-')[1]; // Extract table_num from area.name
+        const tableNum = area.name.split('-')[2]; // Extract table_num from area.name
         const fontSize = baseFontSize * scale; // Scale the font size
         const size = baseSize * scale; // Scale the size of the circle
 

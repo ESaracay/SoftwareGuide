@@ -19,11 +19,9 @@ export default function Home() {
   }
 
   const clicked = (area) => {
-    let [sectionNum, tableNum] = area.name.split('-');
-    tableNum = parseInt(tableNum, 10) - 1;
-    let team = teamsJson[tableNum]["teamName"];
-    console.log(team)
-    setSelectedTeam(team);
+    let teamName = area.name.split('-')[1];
+    console.log(teamName)
+    setSelectedTeam(teamName);
     goToSearch();
   }
 
