@@ -48,9 +48,11 @@ def csvlayout_to_dict(csv_file_path):
             table_num = int(row['table_num'])
             coords = convert_str_to_list(row['coords'])
             first_half, second_half = split_coords(coords)
-
-            table_coords[table_num*2 - 1] = first_half
-            table_coords[table_num*2] = second_half
+            table_coords[table_num] = {
+                "full": convert_str_to_list(row['coords']),
+                "half-a": first_half,
+                "half-b": second_half
+            }
 
     return table_coords
 def generate_category_map_from_csv(csv_path):
@@ -114,13 +116,22 @@ def process_teams_and_generate_json(team_file_path, layout_file_path, categories
     with open(team_file_path, mode='r', encoding='utf-8') as csv_file:
         reader = csv.DictReader(csv_file)
         for row in reader:
-            table_num = int(row["table_num"])
+            table_num_label = row["table_num"]
+            table_space = "full"
+
+            if "a" in table_num_label:
+                table_space = "half-a"
+            if "b" in table_num_label:
+                table_space = "half-b"
+
+            table_num = int(table_num_label.split(".")[0])
 
             # Code that sets preference for revealing projects with AI
             ai_related = row['has_ai']
             main_category = row["categories"].split(", ")[0]
             if (ai_related == "Yes"):
                 main_category = "AI"
+                row["categories"]+=", AI"
 
             if main_category not in category_data:
                 raise LookupError(f"Main Category: {main_category} not found in Category Data: ")
@@ -129,7 +140,7 @@ def process_teams_and_generate_json(team_file_path, layout_file_path, categories
             if table_num in table_coords:
                 pre_fill_color = category_data.get(main_category, {}).get('hex_color', DEFAULT_FILL_COLOR)
                 section_num = category_data.get(main_category, {}).get('section_number', 0)
-                image_map_areas.append(json_area(section_num, table_num, table_coords[table_num], pre_fill_color))
+                image_map_areas.append(json_area(section_num, row["table_num"], row['team'], table_coords[table_num][table_space], pre_fill_color))
                 team_info_ls.append(generate_team_info(row, section_num))
             else:
                 raise LookupError(f"Error: Table number {table_num} not specified in layout")
@@ -141,12 +152,12 @@ def process_teams_and_generate_json(team_file_path, layout_file_path, categories
     with open("../src/app/components/teams.json", 'w') as file:
         json.dump(team_info_ls, file, indent=4)
 
-def json_area(section_num, table_num, coords, pre_fill_color):
+def json_area(section_num, table_num_label, team_name, coords, pre_fill_color):
     """
         Generates json area object that is used by the react image mapper 
     """
     return {
-        'name': str(section_num) + "-" + str(table_num),
+        'name': str(section_num) + "-" + team_name + "-" + table_num_label,
         "shape": "poly",
         "coords": coords, 
         'preFillColor': pre_fill_color,
@@ -160,7 +171,7 @@ def generate_team_info(team_data, section_num):
 
     team_info = {
         "teamName": team_data['team'],
-        "teamNum": int(team_data['table_num']),
+        "teamNum": team_data['table_num'],
         "description": team_data['description'],
         "categories": team_data['categories'].split(", "),
         "teamMembers": team_data['members'],
