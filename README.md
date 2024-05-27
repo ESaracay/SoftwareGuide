@@ -1,4 +1,4 @@
-### [Software Faire Guide](https://cs210.github.io/SoftwareGuide/)
+# [Software Faire Guide](https://cs210.github.io/SoftwareGuide/)
 ## Testing
 
 First, run the development server:
