@@ -8,7 +8,7 @@
             "Games"
         ],
         "teamMembers": "Andrea Liao",
-        "sectionNum": 5
+        "sectionNum": 6
     },
     {
         "teamName": "August",
@@ -29,7 +29,7 @@
             "Games"
         ],
         "teamMembers": "Peyton Lee, Serena Kravantka, Osose Ewaleifoh, Brandon Ring, Sajel Galhotra",
-        "sectionNum": 7
+        "sectionNum": 8
     },
     {
         "teamName": "Stellar Surveillance",
@@ -39,7 +39,7 @@
             "Games"
         ],
         "teamMembers": "Michael Granado, Shruti Sridhar, Oluseyi Ogundipe, Peter De La Cruz",
-        "sectionNum": 7
+        "sectionNum": 8
     },
     {
         "teamName": "Quad Contest",
@@ -49,7 +49,7 @@
             "Games"
         ],
         "teamMembers": "Calvin Laughlin, Peter Ling, Abe Yosef, Whayden Dhamcho",
-        "sectionNum": 7
+        "sectionNum": 8
     },
     {
         "teamName": "Sternfahrt",
@@ -62,17 +62,6 @@
             "AI"
         ],
         "teamMembers": "Daniel Lee, Yubin Jee, Jian Xu, Ellie Yang",
-        "sectionNum": 0
-    },
-    {
-        "teamName": "KERWY",
-        "teamNum": "6",
-        "description": "The Mercedes-Benz AI Palette is a set of entertainment-focused conversational AI personas that a driver can interact with. We crafted three personas \u2014 Football Commentator, Old Sport, and Art & Nature \u2014 to mimic the speech and personality of Peter Drury, Frank Sinatra, and David Attenborough. Powered by GenAI, these personas engage in dialogue, react to events like honks and acceleration, and offer persona-specific interactions.\n\nBuilt on the Android platform with conversational LLMs and text-to-speech synthesis, our models capture the distinct style, voice, and tone of each real-world figure, ensuring authentic conversations that make them sound like real friends. The personas also react to honks and acceleration detected by sensors on a physical minicar. Additionally, each persona offers unique features: Football Commentator gives football news updates, Old Sport introduces new songs, and Art & Nature uses computer vision to respond to the driver's gestures and narrate surroundings.",
-        "categories": [
-            "Automotive",
-            "AI"
-        ],
-        "teamMembers": "Katherine Chen, Esteban Wu, Ryan Kang, Will Fang, Yannie Tan",
         "sectionNum": 0
     },
     {
@@ -243,7 +232,7 @@
             "Games"
         ],
         "teamMembers": "Gabe Maga\u00f1a, Abhi Kumar, Wyatt Johnson, Nikhil Lyles",
-        "sectionNum": 7
+        "sectionNum": 8
     },
     {
         "teamName": "ReQuest",
@@ -253,7 +242,7 @@
             "Social Media"
         ],
         "teamMembers": "David Yang, Sophie Wu, Mia Chen, Althea Hudson, Matthew Villescas",
-        "sectionNum": 12
+        "sectionNum": 13
     },
     {
         "teamName": "Poole",
@@ -263,7 +252,7 @@
             "Social Media"
         ],
         "teamMembers": "Jimmy Ogada, Carlo Dino, Harviel Arcilla, Colette Do, Sochima Ezema",
-        "sectionNum": 12
+        "sectionNum": 13
     },
     {
         "teamName": "Love Alarm",
@@ -273,7 +262,7 @@
             "Social Media"
         ],
         "teamMembers": "Hannah Lee, Adi Badlani, Albert Hwang",
-        "sectionNum": 12
+        "sectionNum": 13
     },
     {
         "teamName": "Flex",
@@ -284,7 +273,7 @@
             "Fitness"
         ],
         "teamMembers": "Asher Hensley, Christian Davis, Joanna Jo, Stephanie Yescas, Travis Grafton",
-        "sectionNum": 12
+        "sectionNum": 13
     },
     {
         "teamName": "Muse",
@@ -294,7 +283,7 @@
             "Social Media"
         ],
         "teamMembers": "Pedro Civita, Jake Lee",
-        "sectionNum": 12
+        "sectionNum": 13
     },
     {
         "teamName": "Relative Refresh",
@@ -302,10 +291,11 @@
         "description": "Our team, in partnership with Hospital Israelita Albert Einstein, supports NGOs creating upcycled products by assisting artisans in building their public profile, connecting with other upcycling partners, and sharing stories about their products. The goal of our platform is to \u201cget more eyes on upcycling\u201d, which is rooted in our belief that consumer viable upcycled products are possible only as awareness of the upcycling process increases both among members of the public and within waste producing organizations. Our target user is NGO administrative staff who can use our web app to generate engaging content that can be attached to their products using QR codes and an upcycling-centered public profile page that helps connect waste suppliers with producers of upcycled products.",
         "categories": [
             "Social Media",
-            "Environment"
+            "Environment",
+            "Healthcare"
         ],
         "teamMembers": "Philip Baillargeon, Alyssa Koh, Amantina Rossi, Alissa Vuillier",
-        "sectionNum": 12
+        "sectionNum": 13
     },
     {
         "teamName": "Upcyclo",
@@ -376,7 +366,7 @@
             "Research"
         ],
         "teamMembers": "Usman Tariq",
-        "sectionNum": 10
+        "sectionNum": 11
     },
     {
         "teamName": "Bitdefender",
@@ -422,7 +412,7 @@
             "Lifestyle"
         ],
         "teamMembers": "Sydney Renea Vaughn Lisette Malacon, Jaylene Martinez, Fabian Luna, Ulo Freitas",
-        "sectionNum": 12
+        "sectionNum": 13
     },
     {
         "teamName": "Herd",
@@ -457,7 +447,7 @@
             "Social Media"
         ],
         "teamMembers": "Mena Hassan, Chetan Nair, Ethan Hu, Belinda Yeung, and Robert Igbokwe",
-        "sectionNum": 5
+        "sectionNum": 6
     },
     {
         "teamName": "PocketPick",
@@ -565,22 +555,11 @@
         "sectionNum": 0
     },
     {
-        "teamName": "Silk AI",
-        "teamNum": "41",
-        "description": "AI B2B Sales Copilot",
-        "categories": [
-            "Business/Office",
-            "AI"
-        ],
-        "teamMembers": "Jack Xiao, Winson Cheng, Ronak Malde, Abhinav Agarwal, Theodore Kanell",
-        "sectionNum": 0
-    },
-    {
         "teamName": "Team CHATuchak",
         "teamNum": "42",
         "description": "Hello! We are team CHATuchak, and for the past two quarters we\u2019ve been working on automating online sales. In close collaboration with GDX, a leading Japanese provider of innovative e-commerce solutions, we\u2019ve developed a generative AI-powered chatbot that simulates a human seller. Unlike standard shopping assistants, our bot not only handles inventory inquiries but also actively recommends products, optimizes pricing, and strategizes offers like bundle discounts to maximize seller profits. Leveraging the power of LLMs, \u200bour bot dynamically analyzes ongoing conversations to make real-time, context-aware decisions to enhance the buyer's shopping experience. Our hope is that our solution's automation of the sales process empowers sellers to focus on other crucial aspects of their business. Many thanks to our partners at GDX and all those who have supported us on this journey, with a special shout-out to Jay Borenstein and Nick Vo, for their invaluable guidance and support.",
         "categories": [
-            "Business/Office",
+            "Commerce",
             "AI"
         ],
         "teamMembers": "Kris Jeong, Kaylee Doty, Ashton Xiong, Edwin Pua, Pauline Arnoud",
@@ -617,7 +596,7 @@
             "Education"
         ],
         "teamMembers": "Stanley Cao",
-        "sectionNum": 5
+        "sectionNum": 6
     },
     {
         "teamName": "labib tazwar rahman",
@@ -639,7 +618,7 @@
             "Education"
         ],
         "teamMembers": "Clinton Kwarteng, Diego Admad-Stein, Augustin Otero, Abranette F. Barry, Blessing Opoku",
-        "sectionNum": 5
+        "sectionNum": 6
     },
     {
         "teamName": "Financier",
@@ -686,6 +665,50 @@
             "AI"
         ],
         "teamMembers": "Scott Hickmann, Elijah Kim, Kevin Li, Schwinn Saereesitthipitak, Henry Weng",
+        "sectionNum": 0
+    },
+    {
+        "teamName": "TreeListings",
+        "teamNum": "48",
+        "description": "TreeListings is a local online marketplace for Stanford Students to buy, sell, and exchange used goods and services that focuses on personalization, convenience, accessibility, design & safety. TreeListings also provides a unique local space for businesses in the community to promote themselves by offering coupons directed specifically for the Stanford community.",
+        "categories": [
+            "Commerce"
+        ],
+        "teamMembers": "June Lee, Ely Chen, Shumann Xu, Chris Vu, Jordan Paredes",
+        "sectionNum": 4
+    },
+    {
+        "teamName": "Moosh",
+        "teamNum": "51",
+        "description": "Moosh is an AI Spotify playlist assistant. Any natural language prompt is converted into a cohesive playlist while incorporating your personal listening taste! Moosh uses a combination of OpenAI's GPT API and the Spotify recommendations algorithm.",
+        "categories": [
+            "Music/Entertainment",
+            "AI"
+        ],
+        "teamMembers": "Tee Monsereenusorn, Gareth Cockroft, Jonathan Coronado, Tommy Adams",
+        "sectionNum": 0
+    },
+    {
+        "teamName": "KERBY",
+        "teamNum": "6",
+        "description": "The Mercedes-Benz AI Palette is a set of immersive, entertainment-focused conversational AI personas that a driver can interact with.\n\nHere's the user journey. Firstly, pick a persona. We've voice-cloned Peter Drury, Frank Sinatra, and David Attenborough for now to craft our three main personas: Football Commentator, Old Sport, and Art & Nature. Powered by GenAI, these personas engage in dialogue, react to events like honks and acceleration, and even react to hand gestures to provide persona-specific interactions. We emphasize the importance of immersiveness in our product to differentiate the experience from your typical, logistical AI assistant.\n\nBuilt on the Android platform with conversational LLMs and text-to-speech synthesis, our models capture the distinct style, voice, and tone of each real-world figure, ensuring authentic conversations that make them sound natural, supportive, and humorous. The personas also react to honks and acceleration detected by sensors on a physical minicar. We've made sure to provide examples to personalize the unique features of each persona: the Football Commentator gives football news updates, Old Sport suggests new songs, and Art & Nature uses a real-time camera to respond to the driver's gestures and narrate surroundings using computer vision.",
+        "categories": [
+            "Automotive",
+            "AI"
+        ],
+        "teamMembers": "Katherine Chen, Esteban Wu, Ryan Kang, Will Fang, Yannie Tan",
+        "sectionNum": 0
+    },
+    {
+        "teamName": "Silk AI",
+        "teamNum": "41",
+        "description": "Silk AI optimizes each step of the negotiation process for distribution sales teams, allowing them to close deals faster and with higher margins. Our AI agent automates communication and provides real time strategy for account managers and salespeople, including during sales calls. This is surfaced as a dashboard that updates real-time during calls, and an extension that integrates with CRM/Email to automate text-based communication. \n\nBehind the scenes, the AI agent has access to generative AI, Retrieval Augmented Generation, and robust mathematical negotiation heuristic models that leverage the company\u2019s internal preferences and data, along with a profile of the customer. Once we start acquiring customers and accumulate historical data, we plan to build more complex models (using game theory, reinforcement learning) that learn over time, creating a level of optimization currently unavailable to sales teams today. ",
+        "categories": [
+            "Business/Office",
+            "Commerce",
+            "AI"
+        ],
+        "teamMembers": "Theo Kanell, Winson Cheng, Abhinav Agarwal, Jack Xiao, Ronak Malde",
         "sectionNum": 0
     }
 ]
