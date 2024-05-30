@@ -112,15 +112,15 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-Krrish Chawla-8",
+        "name": "0-Krrish Chawla-8.a",
         "shape": "poly",
         "coords": [
             404,
             218,
-            434,
-            233,
-            450,
-            226,
+            419,
+            225,
+            435,
+            218,
             420,
             211
         ],
@@ -128,15 +128,15 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-Neural Compression for Satellite Imagery-9",
+        "name": "0-Neural Compression for Satellite Imagery-9.a",
         "shape": "poly",
         "coords": [
             450,
             194,
-            482,
-            210,
-            496,
-            203,
+            466,
+            202,
+            481,
+            195,
             466,
             187
         ],
@@ -144,17 +144,17 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-Atem-9",
+        "name": "0-Atem-9.b",
         "shape": "poly",
         "coords": [
-            450,
-            194,
+            466,
+            202,
             482,
             210,
             496,
             203,
-            466,
-            187
+            481,
+            195
         ],
         "preFillColor": "#EF4444",
         "fillColor": "#000000"
@@ -496,15 +496,15 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-Government Organization Chart-25",
+        "name": "0-Government Organization Chart-25.a",
         "shape": "poly",
         "coords": [
             664,
             150,
-            694,
-            165,
-            708,
-            158,
+            679,
+            157,
+            693,
+            150,
             678,
             143
         ],
@@ -688,15 +688,15 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-Retrospect-35",
+        "name": "0-Retrospect-35.a",
         "shape": "poly",
         "coords": [
             581,
             259,
-            611,
-            274,
-            625,
-            268,
+            596,
+            266,
+            610,
+            260,
             595,
             253
         ],
@@ -704,17 +704,17 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-Translation-36",
+        "name": "0-Translation-35.b",
         "shape": "poly",
         "coords": [
-            628,
-            236,
-            659,
-            251,
-            671,
-            245,
-            641,
-            230
+            596,
+            266,
+            611,
+            274,
+            625,
+            268,
+            610,
+            260
         ],
         "preFillColor": "#EF4444",
         "fillColor": "#000000"
@@ -960,17 +960,17 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-Moosh-51",
+        "name": "0-Moosh-36",
         "shape": "poly",
         "coords": [
-            699,
-            332,
-            730,
-            347,
-            745,
-            340,
-            714,
-            325
+            628,
+            236,
+            659,
+            251,
+            671,
+            245,
+            641,
+            230
         ],
         "preFillColor": "#EF4444",
         "fillColor": "#000000"
@@ -1003,6 +1003,102 @@
             428,
             397,
             414
+        ],
+        "preFillColor": "#EF4444",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "6-City ReVamp-25.b",
+        "shape": "poly",
+        "coords": [
+            679,
+            157,
+            694,
+            165,
+            708,
+            158,
+            693,
+            150
+        ],
+        "preFillColor": "#A3E635",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "0-Kenny O.-49.b",
+        "shape": "poly",
+        "coords": [
+            585,
+            403,
+            600,
+            411,
+            614,
+            405,
+            599,
+            397
+        ],
+        "preFillColor": "#EF4444",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "0-Jambo-49.a",
+        "shape": "poly",
+        "coords": [
+            570,
+            396,
+            585,
+            403,
+            599,
+            397,
+            584,
+            390
+        ],
+        "preFillColor": "#EF4444",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "7-Team 15-50",
+        "shape": "poly",
+        "coords": [
+            633,
+            365,
+            663,
+            380,
+            676,
+            373,
+            646,
+            359
+        ],
+        "preFillColor": "#FB923C",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "0-KeepUp-51",
+        "shape": "poly",
+        "coords": [
+            699,
+            332,
+            730,
+            347,
+            745,
+            340,
+            714,
+            325
+        ],
+        "preFillColor": "#EF4444",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "0-Michael Byun-8.b",
+        "shape": "poly",
+        "coords": [
+            419,
+            225,
+            434,
+            233,
+            450,
+            226,
+            435,
+            218
         ],
         "preFillColor": "#EF4444",
         "fillColor": "#000000"
