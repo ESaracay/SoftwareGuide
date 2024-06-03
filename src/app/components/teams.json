@@ -277,7 +277,7 @@
     },
     {
         "teamName": "Muse",
-        "teamNum": "19",
+        "teamNum": "19.a",
         "description": "Muse is a social network platform for art enthusiasts that allows users to discover and interact with museums and exhibitions around the world. Within the app, users can catalog and review the art they\u2019ve seen at every level: from specific artifacts to entire museums. By following both friend and museum accounts, users are always up to date with the newest exhibitions and what people are thinking about art around them. This way, Muse creates a more social and engaging way to experience and discover art. ",
         "categories": [
             "Social Media"
@@ -406,7 +406,7 @@
     {
         "teamName": "NiT",
         "teamNum": "28",
-        "description": "8",
+        "description": "NiT\u2019s mission is to ease young adults\u2019 transitions into their postgraduate lives by helping them create friendships in their new locations with other young adults. Based on their selected interests and profile information, our app offers users matches into small groups of 5 to 8 people within close geographic proximity. Our hope is for users to eventually delete the app because they\u2019ve fostered such a fulfilling sense of community in their new whereabouts!",
         "categories": [
             "Social Media",
             "Lifestyle"
@@ -543,7 +543,7 @@
     },
     {
         "teamName": "Receipts",
-        "teamNum": "40",
+        "teamNum": "40.a",
         "description": "People have long sought to measure and perceive themselves in an unbiased way. Personality tests and fitness trackers are ubiquitous for this reason, despite being incredibly low-resolution. What if we could tell everyone who they are, who they were, and how they have changed, both precisely and dynamically? We're building a semantic understanding layer for life that has context out of the box. Our extensive background in NLP R&D enables our development of novel generalization mechanisms to supercharge the capabilities of applied LLMs for this task, giving us high-fidelity insights that are relevant to the user and otherwise impossible to generate out-of-the-box. This all defines the foundation of Receipts -- an instantly powerful therapist, relationship coach, and personal assistant built on top of your personal dataset.",
         "categories": [
             "Behavior Change/Wellness",
@@ -579,7 +579,7 @@
     },
     {
         "teamName": "Pediatric Apple Watch Study",
-        "teamNum": "44",
+        "teamNum": "44.a",
         "description": "The Pediatric Apple Watch Study (PAWS) application leverages the capabilities of the Apple Watch to enhance the characterization and monitoring of abnormal heart rhythms (arrhythmias) in children. This open-source software serves to assist a Stanford Medicine research team that recently found that smartwatches were able to identify arrhythmias in 41 pediatric patients, with 29 of them receiving new diagnoses that were missed by traditional ambulatory monitoring methods.\n\nIn a follow-up study, the updated PAWS application adds new cardiac and activity-based metrics for data analysis, which will be used to further assess the accuracy of heart rate and rhythm measurements from smartwatches compared to standard diagnostic devices in children. The goal is to help develop pediatric-specific algorithms for monitoring heart health using wearable technology, as well as robust software that is extensible to adjacent use cases in clinical practice.",
         "categories": [
             "Healthcare",
@@ -777,6 +777,41 @@
             "AI"
         ],
         "teamMembers": "Michael Byun",
+        "sectionNum": 0
+    },
+    {
+        "teamName": "Learning Robotic Manipulation from Human Video",
+        "teamNum": "40.b",
+        "description": "Training imitation learning policies to complete robotic manipulation tasks by using human video as a data source. We train a Latent Action Model that labels human videos with low-dimensional actions, allowing human video to be treated as simply another embodiment in a cross-embodiment imitation learning dataset.",
+        "categories": [
+            "Research",
+            "AI"
+        ],
+        "teamMembers": "Gabrael Levine",
+        "sectionNum": 0
+    },
+    {
+        "teamName": "Storybook AI",
+        "teamNum": "19.b",
+        "description": "Come check out Storybook AI! Simply submit a drawing, picture, or text description, and we'll create custom storybooks or curate personalized book recommendations just for you. Whether you're an artist, a reader, or just feeling whimsical, Storybook AI will bring your imagination to life!",
+        "categories": [
+            "Education",
+            "Games",
+            "AI"
+        ],
+        "teamMembers": "John Finkelman, Naijing Guo, Parker Kasiewicz, Peter Xux, Vishesh Gupta",
+        "sectionNum": 0
+    },
+    {
+        "teamName": "MIRIAD",
+        "teamNum": "44.b",
+        "description": "We have built a rich, large-scale dataset of operationalized medical knowledge in the form of medical questions and answers, grounded in articles from the medical literature. Our dataset consists entirely of text data, including millions of passages and question-answer pairs. The downstream tasks of this dataset are training a retriever and instruction fine-tuning a medical foundation model. Existing solutions for medical question answering tasks typically use basic retrieval techniques, such as vector databases, and general-domain embeddings to augment LLMs with contextual information. Our dataset provides domain-specific optimizations could better capture deep semantic relationships between queries and retrieved context.",
+        "categories": [
+            "Healthcare",
+            "Research",
+            "AI"
+        ],
+        "teamMembers": "Salman Abdullah",
         "sectionNum": 0
     }
 ]

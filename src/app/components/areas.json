@@ -400,15 +400,15 @@
         "fillColor": "#000000"
     },
     {
-        "name": "13-Muse-19",
+        "name": "13-Muse-19.a",
         "shape": "poly",
         "coords": [
             387,
             290,
-            416,
-            304,
-            431,
+            401,
             297,
+            415,
+            290,
             400,
             283
         ],
@@ -768,15 +768,15 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-Receipts-40",
+        "name": "0-Receipts-40.a",
         "shape": "poly",
         "coords": [
             337,
             443,
-            367,
-            458,
-            379,
-            452,
+            352,
+            450,
+            364,
+            444,
             349,
             437
         ],
@@ -816,15 +816,15 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-Pediatric Apple Watch Study-44",
+        "name": "0-Pediatric Apple Watch Study-44.a",
         "shape": "poly",
         "coords": [
             635,
             295,
-            665,
-            310,
-            678,
-            303,
+            650,
+            302,
+            663,
+            295,
             648,
             288
         ],
@@ -1099,6 +1099,54 @@
             226,
             435,
             218
+        ],
+        "preFillColor": "#EF4444",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "0-Learning Robotic Manipulation from Human Video-40.b",
+        "shape": "poly",
+        "coords": [
+            352,
+            450,
+            367,
+            458,
+            379,
+            452,
+            364,
+            444
+        ],
+        "preFillColor": "#EF4444",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "0-Storybook AI-19.b",
+        "shape": "poly",
+        "coords": [
+            401,
+            297,
+            416,
+            304,
+            431,
+            297,
+            415,
+            290
+        ],
+        "preFillColor": "#EF4444",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "0-MIRIAD-44.b",
+        "shape": "poly",
+        "coords": [
+            650,
+            302,
+            665,
+            310,
+            678,
+            303,
+            663,
+            295
         ],
         "preFillColor": "#EF4444",
         "fillColor": "#000000"
