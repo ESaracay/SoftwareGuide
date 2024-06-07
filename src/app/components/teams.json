@@ -311,7 +311,7 @@
     },
     {
         "teamName": "GenreGenius",
-        "teamNum": "22",
+        "teamNum": "22.a",
         "description": "GenreGenius is a machine learning based music/sound classifier.",
         "categories": [
             "Education",
@@ -324,7 +324,7 @@
     },
     {
         "teamName": "SRK",
-        "teamNum": "23",
+        "teamNum": "23.a",
         "description": "We are building an AI tool that turns your research papers into a connected knowledge graph!",
         "categories": [
             "Productivity",
@@ -380,9 +380,9 @@
         "sectionNum": 0
     },
     {
-        "teamName": "LLMs for Paleontology",
+        "teamName": "Deep Learning for Extracting Structured Scientific Data",
         "teamNum": "27.a",
-        "description": "Large Language Models (LLMs) have offered novel, productive approaches to many classical NLP tasks, including text summarization, machine translation, and question-answering. However, there exist few studies exploring the utility of LLMs as applied to domain-specific, high-expertise tasks, which comprise the bulk of natural language tasks in scientific research. We evaluate the competency of LLMs in extracting structured paleontological body size data from the scientific literature. There are enormous amounts of paleo-biological and -ecological data stored in paleontological journals, and improving access to this information in a structured manner will be crucial as we continue to understand how life has evolved through Earth's history.",
+        "description": "Scientific data in the published literature and other sources is often inaccessible to traditional data science methods. Using the field of paleontology as a case study, we explore the utility of deep learning methods in extracting this \u201chidden\u201d scientific data from both text and image modalities into a structured, workable format.",
         "categories": [
             "Research",
             "AI"
@@ -473,7 +473,7 @@
     },
     {
         "teamName": "FilmFlicks",
-        "teamNum": "34",
+        "teamNum": "34.a",
         "description": "Throughout the brainstorming process for our software development project, our team found a common interest in entertainment, specifically movies and streaming. When thinking about issues we see within the movie-watching process, we resonated with the common pain point of wasting unnecessary time finding the right movie to watch with others. It is well established that content consumption, particularly streaming and movie watching has significantly increased in recent years. With our product, which we call Film Flicks, we hope to push people to spend more quality, productive time together while simultaneously saving time picking a movie to watch. Further, the technology we intend to develop has capabilities that can be integrated into larger streaming services where people would highly benefit, such as a group movie selection feature on major streaming platforms based on individual preferences. ",
         "categories": [
             "Entertainment",
@@ -735,7 +735,7 @@
     },
     {
         "teamName": "Jambo",
-        "teamNum": "49.a",
+        "teamNum": "34.b",
         "description": "Jambo aims to provide seamless, direct speech-to-speech translation using advanced models like Meta's Wav2Vec 2.0 with BERT for ASR, No Language Left Behind for high translation accuracy, and HiFi-GAN for voice output, addressing latency and preserving tone. This system will support the top 5 most spoken languages, enhancing global communication",
         "categories": [
             "Communication",
@@ -812,6 +812,41 @@
             "AI"
         ],
         "teamMembers": "Salman Abdullah",
+        "sectionNum": 0
+    },
+    {
+        "teamName": "Schoolhouse AI Feedback",
+        "teamNum": "22.b",
+        "description": "Ran a randomized controlled trial that explores the affect of providing personalized, automated feedback to tutors on student learning outcomes",
+        "categories": [
+            "Education",
+            "AI"
+        ],
+        "teamMembers": "Joy Yun",
+        "sectionNum": 0
+    },
+    {
+        "teamName": "ThermaQuest",
+        "teamNum": "23.b",
+        "description": "Project Title: Enhancing Demining Efficiency: A Novel Approach Leveraging Thermal Imaging and Machine Learning\n\nDescription: Our research has successfully developed an innovative demining solution that significantly enhances the detection efficiency of unexploded ordnance (UXO) by leveraging advanced thermal imaging and machine learning techniques. Traditional demining methods, which primarily rely on metal detection, often suffer from high false-positive rates and inefficiencies. In response, our project employed the DJI Mavic 3T drone to capture thermal images in various simulated demining environments, focusing on the unique thermal signatures of UXO and common metallic debris.\n\nUsing a tailored Convolutional Neural Network (CNN) based on the VGG-16 architecture, we trained our model to accurately distinguish between UXO and innocuous metal objects. The model demonstrated high accuracy and reliability, significantly reducing false positives and improving operational efficiency. Key performance metrics, including accuracy, precision, recall, F1-score, and Intersection over Union (IoU), validated the model's effectiveness.\n\nThe outcomes of this research establish a new standard in demining technologies, offering a safer and more efficient approach to UXO detection. Our findings not only enhance current demining practices but also provide valuable insights for future innovations in the field, highlighting the potential of combining thermal imaging and machine learning in humanitarian efforts.\n\nKey Achievements:\n\nDeveloped a comprehensive thermal image dataset simulating real-world demining conditions.\nCreated and validated a high-precision CNN model for UXO detection.\nAchieved significant improvements in detection accuracy and operational efficiency.\nContributed to the advancement of demining technologies with a focus on safety and effectiveness.",
+        "categories": [
+            "Research",
+            "Security",
+            "AI"
+        ],
+        "teamMembers": "Abdulwahab Omira",
+        "sectionNum": 0
+    },
+    {
+        "teamName": "TripSage",
+        "teamNum": "49.a",
+        "description": "Trip Sage assists your traveling experience. Be in on foot or on a drive, you can start a trip with Trip Sage, and the app will send you a notification when you pass interesting attractions near you. It will provide information about the attraction through an interactive chat, where you can ask follow up questions and learn more about each place. The experience is highly customizable. With Trip Sage, your curiosity will guide your new adventures!",
+        "categories": [
+            "Marketing",
+            "Social Media",
+            "AI"
+        ],
+        "teamMembers": "Proud Mpala, Jason Chao, Raghav Garg, Emma Wong, Beatriz Freire",
         "sectionNum": 0
     }
 ]

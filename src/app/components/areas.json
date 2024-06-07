@@ -448,15 +448,15 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-GenreGenius-22",
+        "name": "0-GenreGenius-22.a",
         "shape": "poly",
         "coords": [
             525,
             219,
-            555,
-            234,
-            569,
-            227,
+            540,
+            226,
+            554,
+            220,
             539,
             213
         ],
@@ -464,15 +464,15 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-SRK-23",
+        "name": "0-SRK-23.a",
         "shape": "poly",
         "coords": [
             571,
             197,
-            602,
-            211,
-            615,
+            586,
             204,
+            600,
+            196,
             586,
             189
         ],
@@ -544,7 +544,7 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-LLMs for Paleontology-27.a",
+        "name": "0-Deep Learning for Extracting Structured Scientific Data-27.a",
         "shape": "poly",
         "coords": [
             208,
@@ -672,15 +672,15 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-FilmFlicks-34",
+        "name": "0-FilmFlicks-34.a",
         "shape": "poly",
         "coords": [
             535,
             283,
-            565,
-            297,
-            579,
-            291,
+            550,
+            290,
+            563,
+            283,
             548,
             276
         ],
@@ -1040,17 +1040,17 @@
         "fillColor": "#000000"
     },
     {
-        "name": "0-Jambo-49.a",
+        "name": "0-Jambo-34.b",
         "shape": "poly",
         "coords": [
-            570,
-            396,
-            585,
-            403,
-            599,
-            397,
-            584,
-            390
+            550,
+            290,
+            565,
+            297,
+            579,
+            291,
+            563,
+            283
         ],
         "preFillColor": "#EF4444",
         "fillColor": "#000000"
@@ -1147,6 +1147,54 @@
             303,
             663,
             295
+        ],
+        "preFillColor": "#EF4444",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "0-Schoolhouse AI Feedback-22.b",
+        "shape": "poly",
+        "coords": [
+            540,
+            226,
+            555,
+            234,
+            569,
+            227,
+            554,
+            220
+        ],
+        "preFillColor": "#EF4444",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "0-ThermaQuest-23.b",
+        "shape": "poly",
+        "coords": [
+            586,
+            204,
+            602,
+            211,
+            615,
+            204,
+            600,
+            196
+        ],
+        "preFillColor": "#EF4444",
+        "fillColor": "#000000"
+    },
+    {
+        "name": "0-TripSage-49.a",
+        "shape": "poly",
+        "coords": [
+            570,
+            396,
+            585,
+            403,
+            599,
+            397,
+            584,
+            390
         ],
         "preFillColor": "#EF4444",
         "fillColor": "#000000"
